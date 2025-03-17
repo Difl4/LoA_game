@@ -22,6 +22,9 @@ class Board:
 
         # Create the initial set of pieces.
         self._create_pieces()
+        
+        # Store the valid moves for the selected piece.
+        self.valid_moves = []
 
     def _create_pieces(self):
         """Create the initial set of pieces."""
@@ -91,7 +94,7 @@ class Board:
         elif(b_connected or w_count == 1): return 2
         else: return 0
     
-
+# Tem outra alternativa que já confirmei que funciona no módulo dos testes para esta função. Vejam qual preferem. Aínda não testei esta.
     def possible_moves(self, row, col):                         # Returns a list of tuples of possible coordinates for a given coordinates' piece
         current_piece = self.board_matrix[row][col]
         total_moves = []
@@ -246,3 +249,10 @@ class Board:
                     total_moves.append((i, u))
         
         return total_moves
+        
+        def draw_valid_moves(self, valid_moves):
+        """Draw circles on the board to show valid move locations."""
+        for row, col in valid_moves:
+            center_x = col * self.settings.square_size + self.settings.square_size // 2
+            center_y = row * self.settings.square_size + self.settings.square_size // 2
+            pygame.draw.circle(self.screen, (255, 0, 0), (center_x, center_y), 10)

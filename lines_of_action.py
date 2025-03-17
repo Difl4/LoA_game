@@ -2,6 +2,8 @@ import sys
 import pygame
 from settings import Settings
 from board import Board
+from movement import LOAMovement
+from translations import get_matrix_position
 
 class LinesOfAction:
     """Overall class to manage game assets and behavior."""
@@ -17,21 +19,64 @@ class LinesOfAction:
             (self.settings.screen_width, self.settings.screen_height))
         pygame.display.set_caption("Lines Of Action")
 
-        # Initialize the board.
+        # Initialize the board and movement logic.
         self.board = Board(self)
+        self.movement = LOAMovement(self.board.board_matrix)
+
+        # Selected piece state
+        self.selected_piece = None
+        self.valid_moves = []
 
     def run_game(self):
         """Start the main loop for the game."""
         while True:
-            # Watch for events.
-            for event in pygame.event.get():
-                if event.type == pygame.QUIT:
-                    sys.exit()
-
-            # Redraw the screen.
-            self.board.draw_board()
-            self.board.draw_pieces()
-
-            # Update the display.
-            pygame.display.flip()
+            self._check_events()
+            self._update_screen()
             self.clock.tick(self.settings.fps)
+
+    def _check_events(self):
+        """Handle key and mouse events."""
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                sys.exit()
+            elif event.type == pygame.MOUSEBUTTONDOWN:
+                self._handle_mouse_click(event.pos)
+
+    def _handle_mouse_click(self, pos):
+        """Handle selecting and moving pieces."""
+        row, col = get_matrix_position(pos[0], pos[1], self.settings.square_size)
+        piece = self.board.board_matrix[row][col]  # Get piece at clicked location
+
+        if piece in ('W', 'B'):
+            # Select a piece and show valid moves
+            self.selected_piece = (row, col)
+            self.valid_moves = self.movement.get_valid_moves(row, col)
+        elif (row, col) in self.valid_moves:
+            # Move the selected piece
+            self._move_piece(self.selected_piece, (row, col))
+
+    def _move_piece(self, from_pos, to_pos):
+        """Move a piece from one position to another."""
+        row_from, col_from = from_pos
+        row_to, col_to = to_pos
+
+        # Update board state
+        self.board.board_matrix[row_to][col_to] = self.board.board_matrix[row_from][col_from]
+        self.board.board_matrix[row_from][col_from] = None
+
+        # Update the visual piece sprite
+        for piece in self.board.pieces:
+            if piece.rect.topleft == (col_from * self.settings.square_size, row_from * self.settings.square_size):
+                piece.rect.topleft = (col_to * self.settings.square_size, row_to * self.settings.square_size)
+                break
+
+        # Deselect piece after move
+        self.selected_piece = None
+        self.valid_moves = []
+
+    def _update_screen(self):
+        """Update and redraw the game screen."""
+        self.board.draw_board()
+        self.board.draw_pieces()
+        self.board.draw_valid_moves(self.valid_moves)
+        pygame.display.flip()

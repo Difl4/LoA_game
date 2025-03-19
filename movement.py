@@ -13,6 +13,7 @@ class LOAMovement:
         count = 1  # Start with the piece itself
 
         # Check forward direction (d_row, d_col)
+
         r, c = row + d_row, col + d_col
         while 0 <= r < len(self.board) and 0 <= c < len(self.board[0]):
             if self.board[r][c] is not None:  # If there's a piece
@@ -29,6 +30,17 @@ class LOAMovement:
             c -= d_col
 
         return count
+    
+
+    def get_all_valid_moves(self, board, player):
+        cur_pos = [(r, c) for r in range(len(board)) for c in range(len(board[r])) if board[r][c] == player]
+        all_valid_moves = []
+
+        for pos in cur_pos:
+            all_valid_moves += [[pos] + self.get_valid_moves(pos[0], pos[1])]
+
+        #print(all_valid_moves)
+        return all_valid_moves
 
     
     def get_valid_moves(self, row, col):

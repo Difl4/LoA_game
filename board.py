@@ -250,8 +250,8 @@ class Board:
         
         return total_moves
         
-        def draw_valid_moves(self, valid_moves):
-        """Draw circles on the board to show valid move locations."""
+    def draw_valid_moves(self, valid_moves):
+    #"""Draw circles on the board to show valid move locations."""
         for row, col in valid_moves:
             center_x = col * self.settings.square_size + self.settings.square_size // 2
             center_y = row * self.settings.square_size + self.settings.square_size // 2

@@ -1,0 +1,78 @@
+from copy import deepcopy
+
+class AiModelA:
+    def __init__(self, game):
+        
+
+
+
+    def evaluate(self, board, player):
+        # Heuristic function for Lines of Action
+        opponent = "W" if player == "B" else "B"
+         
+        # Example heuristic:
+        # 1. Cluster cohesion: Minimize the maximum distance between pieces
+        # 2. Control: More central positioning is better
+        # 3. Piece count: More pieces are advantageous
+         
+        player_positions = [(r, c) for r in range(len(board)) for c in range(len(board[r])) if board[r][c] == player]
+        opponent_positions = [(r, c) for r in range(len(board)) for c in range(len(board[r])) if board[r][c] == opponent]
+         
+        if not player_positions: return -1000  # Losing condition
+        if not opponent_positions: return 1000  # Winning condition
+         
+        def cluster_distance(positions):
+            return max(abs(r1 - r2) + abs(c1 - c2) for (r1, c1) in positions for (r2, c2) in positions)
+         
+        player_cluster = cluster_distance(player_positions)
+        opponent_cluster = cluster_distance(opponent_positions)
+         
+        central_control = sum(abs(r - len(board) // 2) + abs(c - len(board[0]) // 2) for (r, c) in player_positions)
+         
+        return (len(player_positions) - len(opponent_positions)) * 10 + (opponent_cluster - player_cluster) * 5 - central_control
+ 
+ 
+    def minimax(self, board, depth, maximizing_player, player):
+        if depth == 0 or self.check_win(board) != 0:
+            return self.evaluate(board, player), None
+ 
+        valid_moves = self.movement.get_all_valid_moves(board, player)
+        best_move = None
+ 
+        if maximizing_player:
+            max_eval = float('-inf')
+            for piece in valid_moves:
+                for move in piece[1:]:
+                    new_board = deepcopy(board)
+                    self._move_piece_on_board(new_board, piece[0], move)
+                    eval, _ = self.minimax(new_board, depth - 1, False, player)
+                    if eval > max_eval:
+                        max_eval = eval
+                        best_move = (piece[0], move)
+            # print(f"Max Eval: {max_eval} Best Move: {best_move}")
+            # time.sleep(1000000)
+            return max_eval, best_move
+        else:
+            min_eval = float('inf')
+            opponent = "W" if player == "B" else "B"
+            for piece in valid_moves:
+                for move in piece[1:]:
+                    new_board = deepcopy(board)
+                    self._move_piece_on_board(new_board, piece[0], move)
+                    eval, _ = self.minimax(new_board, depth - 1, True, player)
+                    if eval < min_eval:
+                        min_eval = eval
+                        best_move = (piece[0], move)
+            # print(f"Min Eval: {min_eval} Best Move: {best_move}")
+            # time.sleep(1000000)
+            return min_eval, best_move
+        
+    def get_all_valid_moves(self, board, player):
+        cur_pos = [(r, c) for r in range(len(board)) for c in range(len(board[r])) if board[r][c] == player]
+        all_valid_moves = []
+        
+        for pos in cur_pos:
+            all_valid_moves += [[pos] + self.get_valid_moves(pos[0], pos[1])]
+ 
+        #print(all_valid_moves)
+        return all_valid_moves

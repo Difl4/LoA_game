@@ -7,8 +7,8 @@ class Settings:
         """Initialize the game's settings."""
 
         # Screen settings
-        self.screen_width = 800
-        self.screen_height = 800
+        self.screen_width = int(pygame.display.Info().current_h * (3/4))
+        self.screen_height = self.screen_width
 
         # Board settings
         self.rows = 8

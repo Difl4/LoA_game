@@ -1,9 +1,35 @@
 from copy import deepcopy
+import sys
+import pygame
+from settings import Settings
+from board import Board
+from movement import LOAMovement
+from translations import get_matrix_position
+from win_check import WinChecker
 
 class AiModelA:
     def __init__(self, game):
-        
+        self.settings = Settings()
+        self.board = game.board.board_dict
+        self.win_checker = WinChecker(game)  # Initialize WinChecker
+        self.moves = LOAMovement(game)
 
+
+    def dict_to_matrix(self, board_dict):
+        # print("poi")
+        # print(board_dict)
+        board = [[None for _ in range(self.settings.cols)] for _ in range(self.settings.rows)]
+        for i,u in board_dict: board[i][u] = board_dict[(i,u)]
+        return board
+    
+
+    def matrix_to_dict(self, board):
+        board_dict = {}
+        for i in range(self.settings.rows):
+            for u in range(self.settings.cols):
+                if board[i][u] is not None:
+                    board_dict[(i,u)] = board[i][u]
+        return board_dict
 
 
     def evaluate(self, board, player):
@@ -33,19 +59,23 @@ class AiModelA:
  
  
     def minimax(self, board, depth, maximizing_player, player):
-        if depth == 0 or self.check_win(board) != 0:
-            return self.evaluate(board, player), None
+
+        board1 = self.dict_to_matrix(board)
+
+
+        if depth == 0 or self.win_checker.check_win("W", board) != 0 or self.win_checker.check_win("B", board) != 0:
+            return self.evaluate(board1, player), None
  
-        valid_moves = self.movement.get_all_valid_moves(board, player)
+        valid_moves = self.get_all_valid_moves(board1, player)
         best_move = None
  
         if maximizing_player:
             max_eval = float('-inf')
             for piece in valid_moves:
                 for move in piece[1:]:
-                    new_board = deepcopy(board)
+                    new_board = deepcopy(board1)
                     self._move_piece_on_board(new_board, piece[0], move)
-                    eval, _ = self.minimax(new_board, depth - 1, False, player)
+                    eval, _ = self.minimax(self.matrix_to_dict(new_board), depth - 1, False, player)
                     if eval > max_eval:
                         max_eval = eval
                         best_move = (piece[0], move)
@@ -57,9 +87,9 @@ class AiModelA:
             opponent = "W" if player == "B" else "B"
             for piece in valid_moves:
                 for move in piece[1:]:
-                    new_board = deepcopy(board)
+                    new_board = deepcopy(board1)
                     self._move_piece_on_board(new_board, piece[0], move)
-                    eval, _ = self.minimax(new_board, depth - 1, True, player)
+                    eval, _ = self.minimax(self.matrix_to_dict(new_board), depth - 1, True, player)
                     if eval < min_eval:
                         min_eval = eval
                         best_move = (piece[0], move)
@@ -72,7 +102,14 @@ class AiModelA:
         all_valid_moves = []
         
         for pos in cur_pos:
-            all_valid_moves += [[pos] + self.get_valid_moves(pos[0], pos[1])]
+            all_valid_moves += [[pos] + self.moves.get_valid_moves(pos[0], pos[1])]
  
         #print(all_valid_moves)
         return all_valid_moves
+    
+    def _move_piece_on_board(self, board, from_pos, to_pos):
+        """Move a piece on the board without updating the visual representation."""
+        row_from, col_from = from_pos
+        row_to, col_to = to_pos
+        board[row_to][col_to] = board[row_from][col_from]
+        board[row_from][col_from] = None

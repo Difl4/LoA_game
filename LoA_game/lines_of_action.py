@@ -5,6 +5,8 @@ from board import Board
 from movement import LOAMovement
 from translations import get_matrix_position
 from win_check import WinChecker
+from ai_model_A import AiModelA
+import time
 
 class LinesOfAction:
     """Overall class to manage game assets and behavior."""
@@ -25,6 +27,7 @@ class LinesOfAction:
         self.movement = LOAMovement(self)
         self.win_checker = WinChecker(self)  # Initialize WinChecker
 
+        self.ai_model = AiModelA(self)
         # Selected piece state
         self.selected_piece = None
         self.valid_moves = []
@@ -34,9 +37,31 @@ class LinesOfAction:
 
     def run_game(self):
         """Start the main loop for the game."""
+        i = 0
         while True:
-            self._check_events()
+            # self._check_events()
             self._update_screen()
+
+            if(i % 2 == 0):
+                _, move = self.ai_model.minimax(self.board.board_dict, 3, True, "B")
+            else:
+                _, move = self.ai_model.minimax(self.board.board_dict, 3, False, "W")
+
+
+            self._move_piece(move[0], move[1])
+            i += 1
+
+            if(self.win_checker.check_win("W", self.board.board_dict) != 0):
+                print("Vitória do branco")
+                self._update_screen()
+                time.sleep(100000)
+                return
+            elif(self.win_checker.check_win("B", self.board.board_dict) != 0):
+                print("Vitória do preto")
+                self._update_screen()
+                time.sleep(100000)
+                return
+
             self.clock.tick(self.settings.fps)
 
     def _check_events(self):
@@ -65,14 +90,19 @@ class LinesOfAction:
             self._move_piece(self.selected_piece, (row, col))
 
             # Check for win condition after the move
-            if self.win_checker.check_win(self.current_turn):
-                print(f"{self.current_turn} wins!")
-                sys.exit()
 
+
+            if self.win_checker.check_win("W", self.board.board_dict):
+                print(f"W wins!")
+                sys.exit()
+            elif self.win_checker.check_win("B", self.board.board_dict):
+                print(f"B wins!")
+                sys.exit()
             # Switch turn to the other player
             self._switch_turn()
 
     def _move_piece(self, from_pos, to_pos):
+        #print("dsa")
         """Move a piece from one position to another."""
         print(f"Moving piece {self.board.board_dict[(from_pos[0], from_pos[1])]} from {from_pos} to {to_pos}")
         row_from, col_from = from_pos

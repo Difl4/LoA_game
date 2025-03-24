@@ -1,18 +1,11 @@
 from copy import deepcopy
-import sys
-import pygame
-from settings import Settings
-from board import Board
-from movement import LOAMovement
-from translations import get_matrix_position
-from win_check import WinChecker
 
 class AiModelA:
     def __init__(self, game):
-        self.settings = Settings()
+        self.settings = game.settings
         self.board = game.board.board_dict
-        self.win_checker = WinChecker(game)  # Initialize WinChecker
-        self.moves = LOAMovement(game)
+        self.win_checker = game.win_checker
+        self.moves = game.movement
 
 
     def dict_to_matrix(self, board_dict):

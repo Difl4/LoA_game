@@ -1,5 +1,3 @@
-import pygame
-
 class Settings:
     """A class to store all settings for Lines of Action."""
 
@@ -7,15 +5,15 @@ class Settings:
         """Initialize the game's settings."""
 
         # Screen settings
-        self.screen_width = int(pygame.display.Info().current_h * (3/4))
-        self.screen_height = self.screen_width
+        self.screen_width = 800
+        self.screen_height = 800
 
         # Board settings
         self.rows = 8
         self.cols = 8
         self.square_size = self.screen_width // self.cols
         self.light_color = (238, 238, 210)
-        self.dark_color = (118, 150, 86)
+        self.dark_color = (233,116,81)
 
         # Movement Settings
         self.directions = [

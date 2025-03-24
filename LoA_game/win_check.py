@@ -1,14 +1,10 @@
-from board import Board
-from settings import Settings
-
-
 class WinChecker:
     def __init__(self, game):
 
         self.directions = game.settings.directions
         self.board = game.board.board_dict
 
-    def check_win(self, piece, board1):
+    def check_win(self, piece, board1 = None):
         """
         Checks if all pieces of the given type are connected.
         :param piece: 'W' or 'B'
@@ -17,6 +13,8 @@ class WinChecker:
         # Get all positions of the all the teams pieces
         # print("dsa")
         # print(board1)
+        board1 = board1 or self.board # By doing this it sets the board1 to the first value it encounters
+
         positions = [pos for pos, p in board1.items() if p == piece]
         if not positions:
             return False  # No pieces to check

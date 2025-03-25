@@ -52,7 +52,6 @@ class LinesOfAction:
     def run_game(self):
         """Start the main loop for the game."""
         while True:
-            self._check_events()
             self._update_screen()
             if self.game_active:
                 if self.ai_game:
@@ -62,6 +61,7 @@ class LinesOfAction:
                         pass
                     elif self.current_turn == 'W':
                         self._play_ai_turn()
+            self._check_events()
             self.clock.tick(self.settings.fps)
 
     def _check_events(self):
@@ -71,8 +71,11 @@ class LinesOfAction:
                 sys.exit()
             elif event.type == pygame.MOUSEBUTTONDOWN:
                 mouse_pos = pygame.mouse.get_pos()
-                self._check_play_button(mouse_pos)
-                self._handle_mouse_click(mouse_pos) # Gives (x, y) pixel coordinates
+                if not self.game_active:
+                    self._check_play_button(mouse_pos)
+
+                if not self.ai_game:
+                    self._handle_mouse_click(mouse_pos) # Gives (x, y) pixel coordinates
     
     def _check_play_button(self, mouse_pos):
         """Start a new game when the player clicks Play."""

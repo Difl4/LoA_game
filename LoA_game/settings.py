@@ -18,7 +18,7 @@ class Settings:
         self.dark_color = (233,116,81)
 
         # Button settings
-        self.button_width = 2* self.square_size
+        self.button_width = 2.5* self.square_size
         self.button_height = self.square_size // 2
 
         # Movement Settings

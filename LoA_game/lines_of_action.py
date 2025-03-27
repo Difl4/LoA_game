@@ -35,9 +35,9 @@ class LinesOfAction:
 
         # Make the play button
         self.buttons = [
-            Button(self, "Play Human", 150),
-            Button(self, "Play AI", 250),
-            Button(self, "Watch AI", 350)
+            Button(self, "Play Human", self.settings.square_size *(2.5)),
+            Button(self, "Play AI", self.settings.square_size * (3.5)),
+            Button(self, "Watch AI", self.settings.square_size * (4.5))
         ]
 
         # Turn state

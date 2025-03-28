@@ -33,7 +33,7 @@ class LinesOfAction:
         self.white_selector = OptionButton(self, "White Player", 0.25, 0.75)
         self.black_selector = OptionButton(self, "Black Player", 0.75, 0.75)
 
-        # Add the player text (this will be updated every time a player is selected)
+        # Add the player text
         self.white_player_text = "White Pieces"
         self.black_player_text = "Black Pieces"
 

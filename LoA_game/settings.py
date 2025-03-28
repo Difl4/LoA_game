@@ -34,5 +34,8 @@ class Settings:
         self.white_piece = 'images/white_checker.bmp'
         self.black_piece = 'images/black_checker.bmp'
 
+        # Player options
+        self.player_options = ['Human', 'AI Model A', 'AI Model B']
+
         # Game settings
         self.fps = 60

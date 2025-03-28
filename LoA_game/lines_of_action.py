@@ -3,14 +3,12 @@ import pygame
 from settings import Settings
 from board import Board
 from movement import LOAMovement
-from translations import get_matrix_position
 from win_check import WinChecker
 from button import Button
-from ai_model_A import AiModelA
+from option_button import OptionButton
+from game_flow import GameFlow  # Import the new GameFlow class
 
 class LinesOfAction:
-    """Overall class to manage game assets and behavior."""
-
     def __init__(self):
         """Initialize the game, and create game resources."""
         pygame.init()
@@ -27,41 +25,25 @@ class LinesOfAction:
         self.movement = LOAMovement(self)
         self.win_checker = WinChecker(self)  # Initialize WinChecker
 
-        # Selected piece state
-        self.selected_piece = None
-        self.valid_moves = []
+        # Initialize the game flow class
+        self.game_flow = GameFlow(self)
 
-        self.game_active = False
+        # Make the play button and option buttons
+        self.play_button = Button(self, "Play", self.settings.screen_height // 2)
+        self.white_selector = OptionButton(self, "White Player", 0.25, 0.75)
+        self.black_selector = OptionButton(self, "Black Player", 0.75, 0.75)
 
-        # Make the play button
-        self.buttons = [
-            Button(self, "Play Human", self.settings.square_size *(2.5)),
-            Button(self, "Play AI", self.settings.square_size * (3.5)),
-            Button(self, "Watch AI", self.settings.square_size * (4.5))
-        ]
-
-        # Turn state
-        self.current_turn = 'B'  # Black goes first
-
-        # AI game mode flag
-        self.ai_game = False
-
-        # Human-AI game mode flag
-        self.h_ai_game = False
+        # Add the player text (this will be updated every time a player is selected)
+        self.white_player_text = "White Pieces"
+        self.black_player_text = "Black Pieces"
 
     def run_game(self):
         """Start the main loop for the game."""
         while True:
-            self._update_screen()
-            if self.game_active:
-                if self.ai_game:
-                    self._play_ai_turn()
-                elif self.h_ai_game:
-                    if self.current_turn == 'B':
-                        pass
-                    elif self.current_turn == 'W':
-                        self._play_ai_turn()
             self._check_events()
+            self._update_screen()
+            if self.game_flow.game_active:
+                self.game_flow.handle_turn()  # <-- Handle AI turn if necessary
             self.clock.tick(self.settings.fps)
 
     def _check_events(self):
@@ -71,129 +53,43 @@ class LinesOfAction:
                 sys.exit()
             elif event.type == pygame.MOUSEBUTTONDOWN:
                 mouse_pos = pygame.mouse.get_pos()
-                if not self.game_active:
+                if not self.game_flow.game_active:
                     self._check_play_button(mouse_pos)
+                    self.white_selector.handle_event(event)  # Handle the white player option button event
+                    self.black_selector.handle_event(event)  # Handle the black player option button event
+                else:
+                    self.game_flow.select_piece(mouse_pos)  # <-- Select piece through GameFlow
 
-                if not self.ai_game:
-                    self._handle_mouse_click(mouse_pos) # Gives (x, y) pixel coordinates
-    
     def _check_play_button(self, mouse_pos):
         """Start a new game when the player clicks Play."""
-        if self.buttons[0].rect.collidepoint(mouse_pos):
-            self.game_active = True
-        
-        elif self.buttons[1].rect.collidepoint(mouse_pos):
-            self.game_active = True
-            self.h_ai_game = True
-            self.ai_model_w = AiModelA(self)
-        
-        elif self.buttons[2].rect.collidepoint(mouse_pos):
-            self.game_active = True
-            self.ai_game = True  # AI vs AI mode
-            self.ai_model_b = AiModelA(self)  # Create AI instance for Black
-            self.ai_model_w = AiModelA(self)  # Create AI instance for White
+        if self.play_button.rect.collidepoint(mouse_pos):
+            self.game_flow.game_active = True
 
-    def _post_move_actions(self):
-        """Check for win conditions and switch turns after a move."""
-        if self.win_checker.check_win(self.current_turn):
-            print(f"{self.current_turn} wins!")
-            self.game_active = False  # Stop the game
-            return  # Exit function early
+            white_choice = self.settings.player_options[self.white_selector.selected_index]
+            black_choice = self.settings.player_options[self.black_selector.selected_index]
 
-        self._switch_turn()  # Switch turn if no one has won
-
-    def _handle_mouse_click(self, pos):
-        """Handle selecting and moving pieces."""
-        if not self.game_active:
-            return  # Ignore clicks if the game is over
-
-        row, col = get_matrix_position(pos[0], pos[1], self.settings.square_size)
-        clicked_piece = self.board.board_dict.get((row, col))  # Get the clicked piece
-
-        if self.selected_piece:
-            # If a piece is selected, try to move it
-            if (row, col) in self.valid_moves:
-                self._move_piece(self.selected_piece, (row, col))
-                self._post_move_actions()  # <--- This ensures turn switching and win checking!
-            else:
-                # Clicked an invalid move location, deselect the piece
-                self.selected_piece = None
-                self.valid_moves = []
-        elif clicked_piece == self.current_turn:
-            # Select a piece if it's the player's turn
-            self.selected_piece = (row, col)
-            self.valid_moves = self.movement.get_valid_moves(row, col)
-
-    def _move_piece(self, from_pos, to_pos):
-        """Move a piece from one position to another."""
-        print(f"Moving piece {self.board.board_dict[(from_pos[0], from_pos[1])]} from {from_pos} to {to_pos}")
-        row_from, col_from = from_pos
-        row_to, col_to = to_pos
-
-        # Check if the destination has an opponent's piece
-        if (row_to, col_to) in self.board.board_dict:
-            if self.board.board_dict[(row_to, col_to)] != self.current_turn:
-                # Capture the opponent's piece
-                self._capture_piece(row_to, col_to)
-
-        # Update board state
-        self.board.board_dict[(row_to, col_to)] = self.board.board_dict[(row_from, col_from)]
-        del self.board.board_dict[(row_from, col_from)]
-
-        # Update the visual piece sprite
-        for piece in self.board.pieces:
-            if piece.rect.topleft == (col_from * self.settings.square_size, row_from * self.settings.square_size):
-                piece.rect.topleft = (col_to * self.settings.square_size, row_to * self.settings.square_size)
-                break
-
-        # Deselect piece after move
-        self.selected_piece = None
-        self.valid_moves = []
-
-    def _switch_turn(self):
-        """Switch turns between players."""
-        if self.current_turn == 'B':
-            self.current_turn = 'W'  # Switch to white
-        else:
-            self.current_turn = 'B'  # Switch to black
+            # Pass the choices to the game flow to initialize the players (including AI)
+            self.game_flow.start_game(white_choice, black_choice)  # <-- Initialize game flow with player choices
 
     def _update_screen(self):
         """Update and redraw the game screen."""
-        if self.game_active:
-            self.board.draw_board()
+        self.board.draw_board()
+
+        if self.game_flow.game_active:
             self.board.draw_pieces()
-            self.board.draw_valid_moves(self.valid_moves)
-
+            self.board.draw_valid_moves(self.game_flow.valid_moves)  # <-- Draw valid moves from GameFlow
+            self._draw_player_text(self.settings.screen_width // 2, 20, f"{self.game_flow.current_turn} Player's Turn")
         else:
-            self.board.draw_board()
-            for button in self.buttons:
-                button.draw_button()
-
+            self.play_button.draw_button()
+            self.white_selector.draw_button()  # Draw the white player option button
+            self.black_selector.draw_button()  # Draw the black player option button
+            self._draw_player_text(self.white_selector.rect.centerx, self.white_selector.rect.centery - 30, self.white_player_text)
+            self._draw_player_text(self.black_selector.rect.centerx, self.black_selector.rect.centery - 30, self.black_player_text)
         pygame.display.flip()
-    
-    def _capture_piece(self, row, col):
-        """Remove a captured piece from the board."""
-        # Remove the piece from the board dictionary
-        del self.board.board_dict[(row, col)]
 
-        # Remove the piece from the sprite group
-        for piece in self.board.pieces:
-            if piece.rect.topleft == (col * self.settings.square_size, row * self.settings.square_size):
-                self.board.pieces.remove(piece)
-                break
-    
-    def _play_ai_turn(self):
-        """Handle AI's turn to make a move."""
-        if self.current_turn == 'B':
-            # AI "B" turn
-            _, best_move = self.ai_model_b.minimax(self.board.board_dict, 3, True, 'B')
-        else:
-            # AI "W" turn
-            _, best_move = self.ai_model_w.minimax(self.board.board_dict, 3, True, 'W')
-        
-        # Perform the move
-        if best_move:
-            from_pos, to_pos = best_move
-            self._move_piece(from_pos, to_pos)
-        
-        self._post_move_actions()  # Check win and switch turns
+    def _draw_player_text(self, x, y, text):
+        """Draw the text (selected player) above the button."""
+        font = pygame.font.SysFont(None, 36)
+        player_text = font.render(text, True, (204, 85, 0))  # White color for text
+        text_rect = player_text.get_rect(center=(x, y))
+        self.screen.blit(player_text, text_rect)

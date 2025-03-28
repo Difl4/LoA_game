@@ -59,6 +59,13 @@ class Board:
                     (col * self.settings.square_size, row * self.settings.square_size, 
                      self.settings.square_size, self.settings.square_size)
                 )
+    
+    def reset_board(self):
+        """Reset the board to the initial state."""
+        # Clear the existing pieces and board dictionary
+        self.pieces.empty()  # Remove all pieces from the sprite group
+        self.board_dict.clear()  # Clear the dictionary holding piece locations
+        self._create_pieces()
 
     def draw_pieces(self):
         """Draw all the pieces on the board."""

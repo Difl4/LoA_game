@@ -1,11 +1,12 @@
 from copy import deepcopy
 
 class AiModelA:
-    def __init__(self, game):
+    def __init__(self, game, color):
         self.settings = game.settings
         self.board = game.board.board_dict
         self.win_checker = game.win_checker
         self.moves = game.movement
+        self.color = color
 
 
     def dict_to_matrix(self, board_dict):

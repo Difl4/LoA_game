@@ -6,7 +6,7 @@ from movement import LOAMovement
 from win_check import WinChecker
 from button import Button
 from option_button import OptionButton
-from game_flow import GameFlow  # Import the new GameFlow class
+from game_flow import GameFlow
 
 class LinesOfAction:
     def __init__(self):
@@ -65,8 +65,8 @@ class LinesOfAction:
         if self.play_button.rect.collidepoint(mouse_pos):
             self.game_flow.game_active = True
 
-            white_choice = self.settings.player_options[self.white_selector.selected_index]
-            black_choice = self.settings.player_options[self.black_selector.selected_index]
+            white_choice = self.white_selector.options[self.white_selector.selected_index]
+            black_choice = self.black_selector.options[self.black_selector.selected_index]
 
             # Pass the choices to the game flow to initialize the players (including AI)
             self.game_flow.start_game(white_choice, black_choice)  # <-- Initialize game flow with player choices

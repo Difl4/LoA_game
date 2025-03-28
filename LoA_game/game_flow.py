@@ -5,6 +5,7 @@ class GameFlow:
     """Handles the flow of the game, including turns and win checking."""
 
     def __init__(self, game):
+        self.PLAYER_MAP = game.settings.PLAYER_MAP
         self.board = game.board
         self.movement = game.movement
         self.win_checker = game.win_checker
@@ -18,47 +19,34 @@ class GameFlow:
         self.black_player = None
 
     def start_game(self, white_choice, black_choice):
-        """Initialize players and start the game."""
+        """Initialize players and start the game using a dictionary mapping."""
         self.game_active = True
-        self.white_player = None
-        self.black_player = None
 
-        if white_choice == 'AI Model A':
-            self.white_player = AiModelA(self, 'W')
-        elif white_choice == 'AI Model B':
-            self.white_player = AiModelA(self, 'W')
-        else:
-            self.white_player = 'Human'
+        self.white_player = self._initialize_player(white_choice, 'W')
+        self.black_player = self._initialize_player(black_choice, 'B')
 
-        if black_choice == 'AI Model A':
-            self.black_player = AiModelA(self, 'B')
-        elif black_choice == 'AI Model B':
-            self.black_player = AiModelA(self, 'B')
-        else:
-            self.black_player = 'Human'
-    
         self.current_turn = 'B'
+
+    def _initialize_player(self, choice, color):
+        """Initialize a player based on the selected choice."""
+        player_class = self.PLAYER_MAP.get(choice)
+        return player_class(self, color) if player_class else 'Human'
 
     def switch_turn(self):
         """Switch turns between players."""
-        if self.current_turn == 'B':
-            self.current_turn = 'W'
-        else:
-            self.current_turn = 'B'
+        self.current_turn = 'W' if self.current_turn == 'B' else 'B'
 
     def handle_turn(self):
         """Handle the turn for the current player."""
-        if self.current_turn == 'B' and isinstance(self.black_player, AiModelA):
-            self._play_ai_turn(self.black_player)
-        elif self.current_turn == 'W' and isinstance(self.white_player, AiModelA):
-            self._play_ai_turn(self.white_player)
+        current_player = self.black_player if self.current_turn == 'B' else self.white_player
+        if isinstance(current_player, AiModelA):  # Replace with BaseAI when other models exist
+            self._play_ai_turn(current_player)
 
     def _play_ai_turn(self, ai_player):
         """Handle AI's turn to make a move."""
         _, best_move = ai_player.minimax(self.board.board_dict, 3, True, ai_player.color)
         if best_move:
-            from_pos, to_pos = best_move
-            self._move_piece(from_pos, to_pos)
+            self._move_piece(*best_move)
         self.check_for_winner()
 
     def _move_piece(self, from_pos, to_pos):
@@ -67,14 +55,12 @@ class GameFlow:
         row_from, col_from = from_pos
         row_to, col_to = to_pos
 
-        # Capture opponent's piece if there is one at destination
-        if (row_to, col_to) in self.board.board_dict:
-            if self.board.board_dict[(row_to, col_to)] != self.current_turn:
-                self._capture_piece(row_to, col_to)
+        # Capture opponent's piece if present
+        if (row_to, col_to) in self.board.board_dict and self.board.board_dict[(row_to, col_to)] != self.current_turn:
+            self._capture_piece(row_to, col_to)
 
         # Update board state
-        self.board.board_dict[(row_to, col_to)] = self.board.board_dict[(row_from, col_from)]
-        del self.board.board_dict[(row_from, col_from)]
+        self.board.board_dict[(row_to, col_to)] = self.board.board_dict.pop((row_from, col_from))
 
         # Update the visual piece sprite
         for piece in self.board.pieces:
@@ -117,12 +103,11 @@ class GameFlow:
         row, col = get_matrix_position(pos[0], pos[1], self.settings.square_size)
         clicked_piece = self.board.board_dict.get((row, col))
 
-        if (self.selected_piece and self.current_turn != self.board.board_dict[self.selected_piece]):
+        if self.selected_piece and self.current_turn != self.board.board_dict[self.selected_piece]:
             self.selected_piece = None
             self.valid_moves = []
 
         if self.selected_piece:
-            # If a piece is selected, try to move it
             if (row, col) in self.valid_moves:
                 self._move_piece(self.selected_piece, (row, col))
                 self.check_for_winner()
@@ -130,6 +115,5 @@ class GameFlow:
                 self.selected_piece = None
                 self.valid_moves = []
         elif clicked_piece == self.current_turn:
-            # Select a piece if it's the player's turn
             self.selected_piece = (row, col)
             self.valid_moves = self.movement.get_valid_moves(row, col)

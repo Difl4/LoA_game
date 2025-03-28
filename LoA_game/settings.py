@@ -1,4 +1,5 @@
 import pygame
+from ai_model_A import AiModelA
 
 class Settings:
     """A class to store all settings for Lines of Action."""
@@ -35,7 +36,12 @@ class Settings:
         self.black_piece = 'images/black_checker.bmp'
 
         # Player options
-        self.player_options = ['Human', 'AI Model A', 'AI Model B']
+        self.PLAYER_MAP = {
+        'Human': None,
+        'AI Model A': AiModelA,
+        'AI Model B': AiModelA,  # Update when AI Model B is implemented
+    }
+        self.player_options = list(self.PLAYER_MAP.keys())
 
         # Game settings
         self.fps = 60

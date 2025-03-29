@@ -39,6 +39,8 @@ class LinesOfAction:
 
     def run_game(self):
         """Start the main loop for the game."""
+        logfile = open("log.txt", "a").write("Game started\n\n")
+        logfile = open("log.txt", "a").write(f"{self.board.board_dict}\n")
         while True:
             self._check_events()
             self._update_screen()

@@ -5,7 +5,6 @@ class GameFlow:
     """Handles the flow of the game, including turns and win checking."""
 
     def __init__(self, game):
-        self.PLAYER_MAP = game.settings.PLAYER_MAP
         self.board = game.board
         self.movement = game.movement
         self.win_checker = game.win_checker
@@ -17,6 +16,13 @@ class GameFlow:
         self.current_turn = 'B'
         self.white_player = None
         self.black_player = None
+
+        self.PLAYER_MAP = {
+            'Human': None,
+            'AI Model A': AiModelA,
+            'AI Model B': AiModelA  # Placeholder for future AI model
+        }
+
 
     def start_game(self, white_choice, black_choice):
         """Initialize players and start the game using a dictionary mapping."""

@@ -1,4 +1,5 @@
 from copy import deepcopy
+import random
 
 class AiModelA:
     def __init__(self, game, color):
@@ -24,33 +25,33 @@ class AiModelA:
                 if board[i][u] is not None:
                     board_dict[(i,u)] = board[i][u]
         return board_dict
+    
 
+    def random_evaluate(self, board, player):
+        return random.randint(-1000, 1000)
+    
 
     def evaluate(self, board, player):
-        # Heuristic function for Lines of Action
+
         opponent = "W" if player == "B" else "B"
-         
-        # Example heuristic:
-        # 1. Cluster cohesion: Minimize the maximum distance between pieces
-        # 2. Control: More central positioning is better
-        # 3. Piece count: More pieces are advantageous
          
         player_positions = [(r, c) for r in range(len(board)) for c in range(len(board[r])) if board[r][c] == player]
         opponent_positions = [(r, c) for r in range(len(board)) for c in range(len(board[r])) if board[r][c] == opponent]
-         
-        if not player_positions: return -1000  # Losing condition
-        if not opponent_positions: return 1000  # Winning condition
-         
+
+        dict_board = self.matrix_to_dict(board)
+        if(self.win_checker.check_win(player, dict_board)): return 100000               # Player ganha
+        if(self.win_checker.check_win(opponent, dict_board)): return -100000            # Opponent ganha
+
         def cluster_distance(positions):
             return max(abs(r1 - r2) + abs(c1 - c2) for (r1, c1) in positions for (r2, c2) in positions)
-         
-        player_cluster = cluster_distance(player_positions)
+        
+        player_cluster = cluster_distance(player_positions)       #Quando maior, maior a diferença de posição das duas peças mais afastadas
         opponent_cluster = cluster_distance(opponent_positions)
-         
-        central_control = sum(abs(r - len(board) // 2) + abs(c - len(board[0]) // 2) for (r, c) in player_positions)
-         
-        return (len(player_positions) - len(opponent_positions)) * 10 + (opponent_cluster - player_cluster) * 5 - central_control
- 
+
+        central_control = sum(abs(r - len(board) // 2) + abs(c - len(board[0]) // 2) for (r, c) in player_positions)    #Quando maior, mais afastado do centro
+
+        return (self.settings.rows / len(opponent_positions)) * -15 + (opponent_cluster - player_cluster) * 20 - central_control * 5
+
  
     def minimax(self, board, depth, maximizing_player, player):
 

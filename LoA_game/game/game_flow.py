@@ -55,7 +55,7 @@ class GameFlow:
         if(self.current_turn == 'W'):
             _, best_move = ai_player.minimax(self.board.board_dict, 3, True, ai_player.color, ai_player.evaluate)
         else:
-            _, best_move = ai_player.minimax(self.board.board_dict, 3, True, ai_player.color, ai_player.evaluate1)
+            _, best_move = ai_player.minimax(self.board.board_dict, 4, True, ai_player.color, ai_player.evaluate1)
         time_taken = time.time() - start
         logfile = open("log.txt", "a").write(f"AI took {time_taken:.2f} seconds to make a move.\n\n")
         print(f"AI took {time_taken:.2f} seconds to make a move.")

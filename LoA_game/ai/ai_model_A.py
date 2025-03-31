@@ -100,15 +100,17 @@ class AiModelA:
         if(no_clusters == 1):
             return -100000            # Opponent ganha
         cluster_score = 0
-        cluster_score += sum([cluster ** 2 for cluster in p_clusters]) - sum([cluster ** 2 for cluster in o_clusters])       
-        cluster_score *= no_clusters/np_clusters
+        cluster_score += sum([cluster ** 2 for cluster in p_clusters]) 
+        cluster_score *= no_clusters / (np_clusters**2)
 
         central_control = sum(abs(r - len(board) // 2) + abs(c - len(board[0]) // 2) for (r, c) in player_positions)    #Quando maior, mais afastado do centro
         
         opponent_moves = self.get_all_valid_moves(board, opponent)
-        nopponent_positions = sum(len(opponent_moves[i][1:]) for i in range(len(opponent_moves)))  #Número de movimentos do oponente
+        nopponent_moves = sum(len(opponent_moves[i][1:]) for i in range(len(opponent_moves)))  #Número de movimentos do oponente
 
-        return cluster_score + len(opponent_positions) * 25 - central_control * 10 - nopponent_positions * 10 
+        print(f"Cluster Score: {cluster_score * 2} Middle: {(len(opponent_positions) * 5)} Central Control: {central_control * 15} Opponent Moves: {nopponent_moves * 1}")
+        # print(cluster_score * 1 + (len(opponent_positions) * 5) - central_control * 15 - nopponent_moves * 1)
+        return cluster_score * 2 + (len(opponent_positions) * 5) - central_control * 15 - nopponent_moves * 1
 
  
     def minimax1(self, board, depth, maximizing_player, player):        # No alpha-beta

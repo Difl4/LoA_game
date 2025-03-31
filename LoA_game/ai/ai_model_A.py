@@ -31,7 +31,7 @@ class AiModelA:
         return random.randint(-1000, 1000)
     
 
-    def evaluate(self, board, player):
+    def evaluate1(self, board, player):
 
         opponent = "W" if player == "B" else "B"
          
@@ -51,6 +51,47 @@ class AiModelA:
         central_control = sum(abs(r - len(board) // 2) + abs(c - len(board[0]) // 2) for (r, c) in player_positions)    #Quando maior, mais afastado do centro
 
         return (self.settings.rows / len(opponent_positions)) * -15 + (opponent_cluster - player_cluster) * 20 - central_control * 5
+        
+
+    def evaluate(self, board, player):          # Heurisitca melhor (demora em 2/3x mais que a outra)
+
+        opponent = "W" if player == "B" else "B"
+         
+        player_positions = [(r, c) for r in range(len(board)) for c in range(len(board[r])) if board[r][c] == player]
+        opponent_positions = [(r, c) for r in range(len(board)) for c in range(len(board[r])) if board[r][c] == opponent]
+
+        def analyze_clusters(self, board, player):
+            player_positions = [(r, c) for r in range(len(board)) for c in range(len(board[r])) if board[r][c] == player]
+
+            # Track visited positions
+            visited = set()
+            clusters = []
+
+            # For each unvisited piece, perform DFS to find its cluster
+            for position in player_positions:
+                if position not in visited:
+                    # New cluster found
+                    cluster_size = 0
+                    stack = [position]
+
+                    while stack:
+                        row, col = stack.pop()
+                        if (row, col) in visited:
+                            continue
+
+                        visited.add((row, col))
+                        cluster_size += 1
+
+                        # Check all 8 directions for connected pieces
+                        for dr, dc in self.settings.directions:
+                            nr, nc = row + dr, col + dc
+                            if (0 <= nr < len(board) and 0 <= nc < len(board[0]) and 
+                                board[nr][nc] == player and (nr, nc) not in visited):
+                                stack.append((nr, nc))
+
+                    clusters.append(cluster_size)
+
+        return len(clusters), clusters 
 
  
     def minimax1(self, board, depth, maximizing_player, player):        # No alpha-beta
@@ -92,12 +133,12 @@ class AiModelA:
             # time.sleep(1000000)
             return min_eval, best_move
 
-    def minimax(self, board, depth, maximizing_player, player, alpha=float('-inf'), beta=float('inf')):     # With alpha-beta
+    def minimax(self, board, depth, maximizing_player, player, evalfun, alpha=float('-inf'), beta=float('inf')):     # With alpha-beta
         board1 = self.dict_to_matrix(board)
 
         # Terminal conditions: depth limit reached or game over
         if depth == 0 or self.win_checker.check_win("W", board) != 0 or self.win_checker.check_win("B", board) != 0:
-            return self.evaluate(board1, player), None
+            return evalfunc(board1, player), None
     
         valid_moves = self.get_all_valid_moves(board1, player)
         best_move = None
@@ -108,7 +149,7 @@ class AiModelA:
                 for move in piece[1:]:
                     new_board = deepcopy(board1)
                     self._move_piece_on_board(new_board, piece[0], move)
-                    eval, _ = self.minimax(self.matrix_to_dict(new_board), depth - 1, False, player, alpha, beta)
+                    eval, _ = self.minimax(self.matrix_to_dict(new_board), depth - 1, False, player, evalfunc, alpha, beta)
                     if eval > max_eval:
                         max_eval = eval
                         best_move = (piece[0], move)
@@ -126,7 +167,7 @@ class AiModelA:
                 for move in piece[1:]:
                     new_board = deepcopy(board1)
                     self._move_piece_on_board(new_board, piece[0], move)
-                    eval, _ = self.minimax(self.matrix_to_dict(new_board), depth - 1, True, player, alpha, beta)
+                    eval, _ = self.minimax(self.matrix_to_dict(new_board), depth - 1, True, evalfunc, player, alpha, beta)
                     if eval < min_eval:
                         min_eval = eval
                         best_move = (piece[0], move)

@@ -53,7 +53,7 @@ class AiModelA:
         return (self.settings.rows / len(opponent_positions)) * -15 + (opponent_cluster - player_cluster) * 20 - central_control * 5
 
  
-    def minimax(self, board, depth, maximizing_player, player):
+    def minimax1(self, board, depth, maximizing_player, player):        # No alpha-beta
 
         board1 = self.dict_to_matrix(board)
 
@@ -90,6 +90,52 @@ class AiModelA:
                         best_move = (piece[0], move)
             # print(f"Min Eval: {min_eval} Best Move: {best_move}")
             # time.sleep(1000000)
+            return min_eval, best_move
+
+    def minimax(self, board, depth, maximizing_player, player, alpha=float('-inf'), beta=float('inf')):     # With alpha-beta
+        board1 = self.dict_to_matrix(board)
+
+        # Terminal conditions: depth limit reached or game over
+        if depth == 0 or self.win_checker.check_win("W", board) != 0 or self.win_checker.check_win("B", board) != 0:
+            return self.evaluate(board1, player), None
+    
+        valid_moves = self.get_all_valid_moves(board1, player)
+        best_move = None
+    
+        if maximizing_player:
+            max_eval = float('-inf')
+            for piece in valid_moves:
+                for move in piece[1:]:
+                    new_board = deepcopy(board1)
+                    self._move_piece_on_board(new_board, piece[0], move)
+                    eval, _ = self.minimax(self.matrix_to_dict(new_board), depth - 1, False, player, alpha, beta)
+                    if eval > max_eval:
+                        max_eval = eval
+                        best_move = (piece[0], move)
+                    alpha = max(alpha, eval)
+                    if beta <= alpha:
+                        # Beta cutoff
+                        break
+                if beta <= alpha:
+                    break
+            return max_eval, best_move
+        else:
+            min_eval = float('inf')
+            opponent = "W" if player == "B" else "B"
+            for piece in valid_moves:
+                for move in piece[1:]:
+                    new_board = deepcopy(board1)
+                    self._move_piece_on_board(new_board, piece[0], move)
+                    eval, _ = self.minimax(self.matrix_to_dict(new_board), depth - 1, True, player, alpha, beta)
+                    if eval < min_eval:
+                        min_eval = eval
+                        best_move = (piece[0], move)
+                    beta = min(beta, eval)
+                    if beta <= alpha:
+                        # Alpha cutoff
+                        break
+                if beta <= alpha:
+                    break
             return min_eval, best_move
         
     def get_all_valid_moves(self, board, player):

@@ -1,11 +1,11 @@
 from ai.ai_model_A import AiModelA
 from config.translations import get_matrix_position
-import time
 
 class GameFlow:
     """Handles the flow of the game, including turns and win checking."""
 
     def __init__(self, game):
+
         self.board = game.board
         self.movement = game.movement
         self.win_checker = game.win_checker
@@ -23,7 +23,6 @@ class GameFlow:
             'AI Model A': AiModelA,
             'AI Model B': AiModelA  # Placeholder for future AI model
         }
-
 
     def start_game(self, white_choice, black_choice):
         """Initialize players and start the game using a dictionary mapping."""
@@ -51,11 +50,7 @@ class GameFlow:
 
     def _play_ai_turn(self, ai_player):
         """Handle AI's turn to make a move."""
-        start = time.time()
-        _, best_move = ai_player.minimax(self.board.board_dict, 3, True, ai_player.color)
-        time_taken = time.time() - start
-        logfile = open("log.txt", "a").write(f"AI took {time_taken:.2f} seconds to make a move.\n\n")
-        print(f"AI took {time_taken:.2f} seconds to make a move.")
+        best_move = ai_player.get_move(self.board.board_dict)
         if best_move:
             self._move_piece(*best_move)
         self.check_for_winner()
@@ -79,8 +74,6 @@ class GameFlow:
                 piece.rect.topleft = (col_to * self.settings.square_size, row_to * self.settings.square_size)
                 break
 
-        logfile = open("log.txt", "a").write(f"{self.board.board_dict}\n")
-
         self.selected_piece = None
         self.valid_moves = []
 
@@ -97,7 +90,6 @@ class GameFlow:
         """Check if there is a winner."""
         if self.win_checker.check_win(self.current_turn):
             print(f"{self.current_turn} wins!")
-            logfile = open("log.txt", "a").write(f"{self.current_turn} wins!\n")
             self.game_active = False
             self.reset_game()
         else:

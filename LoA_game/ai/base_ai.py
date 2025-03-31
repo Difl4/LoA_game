@@ -1,7 +1,4 @@
 # ai/base_ai.py
-# esta clase não fui eu que criei foi totalmente o chat gpt.
-# A ideia é estruturar as futuras IAs com base nesta porque todas vão ter algo em comum.
-# Utilizamos "inheritance" desta classe e depois também é útil para verificar se se trata de uma IA porque basta usar o método isinstance() com esta classe
 from abc import ABC, abstractmethod
 
 class BaseAI(ABC):

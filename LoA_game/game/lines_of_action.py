@@ -39,8 +39,6 @@ class LinesOfAction:
 
     def run_game(self):
         """Start the main loop for the game."""
-        logfile = open("log.txt", "a").write("Game started\n\n")
-        logfile = open("log.txt", "a").write(f"{self.board.board_dict}\n")
         while True:
             self._check_events()
             self._update_screen()
@@ -67,8 +65,8 @@ class LinesOfAction:
         if self.play_button.rect.collidepoint(mouse_pos):
             self.game_flow.game_active = True
 
-            white_choice = self.white_selector.options[self.white_selector.selected_index]
-            black_choice = self.black_selector.options[self.black_selector.selected_index]
+            white_choice = self.settings.player_options[self.white_selector.selected_index]
+            black_choice = self.settings.player_options[self.black_selector.selected_index]
 
             # Pass the choices to the game flow to initialize the players (including AI)
             self.game_flow.start_game(white_choice, black_choice)  # <-- Initialize game flow with player choices

@@ -33,7 +33,7 @@ class WinChecker:
                 # Check all 8 possible movement directions
                 for dr, dc in self.directions:
                     nr, nc = row + dr, col + dc
-                    if (nr, nc) in self.board and self.board[(nr, nc)] == piece:
+                    if (nr, nc) in board1 and board1[(nr, nc)] == piece:
                         stack.append((nr, nc))
 
         # Start DFS from the first found piece

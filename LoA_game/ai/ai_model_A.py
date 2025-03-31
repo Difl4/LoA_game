@@ -91,7 +91,24 @@ class AiModelA:
 
                     clusters.append(cluster_size)
 
-        return len(clusters), clusters 
+            return len(clusters), clusters 
+
+        np_clusters, p_clusters = analyze_clusters(self, board, player)
+        no_clusters, o_clusters = analyze_clusters(self, board, opponent)
+        if(np_clusters == 1):
+            return 100000               # Player ganha
+        if(no_clusters == 1):
+            return -100000            # Opponent ganha
+        cluster_score = 0
+        cluster_score += sum([cluster ** 2 for cluster in p_clusters]) - sum([cluster ** 2 for cluster in o_clusters])       
+        cluster_score *= no_clusters/np_clusters
+
+        central_control = sum(abs(r - len(board) // 2) + abs(c - len(board[0]) // 2) for (r, c) in player_positions)    #Quando maior, mais afastado do centro
+        
+        opponent_moves = self.get_all_valid_moves(board, opponent)
+        nopponent_positions = sum(len(opponent_moves[i][1:]) for i in range(len(opponent_moves)))  #Número de movimentos do oponente
+
+        return cluster_score + len(opponent_positions) * 25 - central_control * 10 - nopponent_positions * 10 
 
  
     def minimax1(self, board, depth, maximizing_player, player):        # No alpha-beta
@@ -133,7 +150,7 @@ class AiModelA:
             # time.sleep(1000000)
             return min_eval, best_move
 
-    def minimax(self, board, depth, maximizing_player, player, evalfun, alpha=float('-inf'), beta=float('inf')):     # With alpha-beta
+    def minimax(self, board, depth, maximizing_player, player, evalfunc, alpha=float('-inf'), beta=float('inf')):     # With alpha-beta
         board1 = self.dict_to_matrix(board)
 
         # Terminal conditions: depth limit reached or game over
@@ -167,7 +184,7 @@ class AiModelA:
                 for move in piece[1:]:
                     new_board = deepcopy(board1)
                     self._move_piece_on_board(new_board, piece[0], move)
-                    eval, _ = self.minimax(self.matrix_to_dict(new_board), depth - 1, True, evalfunc, player, alpha, beta)
+                    eval, _ = self.minimax(self.matrix_to_dict(new_board), depth - 1, True, player, evalfunc, alpha, beta)
                     if eval < min_eval:
                         min_eval = eval
                         best_move = (piece[0], move)

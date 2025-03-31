@@ -1,0 +1,924 @@
+Game started
+
+{(1, 0): 'W', (2, 0): 'W', (3, 0): 'W', (4, 0): 'W', (5, 0): 'W', (6, 0): 'W', (1, 7): 'W', (2, 7): 'W', (3, 7): 'W', (4, 7): 'W', (5, 7): 'W', (6, 7): 'W', (0, 1): 'B', (0, 2): 'B', (0, 3): 'B', (0, 4): 'B', (0, 5): 'B', (0, 6): 'B', (7, 1): 'B', (7, 2): 'B', (7, 3): 'B', (7, 4): 'B', (7, 5): 'B', (7, 6): 'B'}
+Game started
+
+{(1, 0): 'W', (2, 0): 'W', (3, 0): 'W', (4, 0): 'W', (5, 0): 'W', (6, 0): 'W', (1, 7): 'W', (2, 7): 'W', (3, 7): 'W', (4, 7): 'W', (5, 7): 'W', (6, 7): 'W', (0, 1): 'B', (0, 2): 'B', (0, 3): 'B', (0, 4): 'B', (0, 5): 'B', (0, 6): 'B', (7, 1): 'B', (7, 2): 'B', (7, 3): 'B', (7, 4): 'B', (7, 5): 'B', (7, 6): 'B'}
+AI took 0.03 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.02 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.02 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.02 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.02 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+Game started
+
+{(1, 0): 'W', (2, 0): 'W', (3, 0): 'W', (4, 0): 'W', (5, 0): 'W', (6, 0): 'W', (1, 7): 'W', (2, 7): 'W', (3, 7): 'W', (4, 7): 'W', (5, 7): 'W', (6, 7): 'W', (0, 1): 'B', (0, 2): 'B', (0, 3): 'B', (0, 4): 'B', (0, 5): 'B', (0, 6): 'B', (7, 1): 'B', (7, 2): 'B', (7, 3): 'B', (7, 4): 'B', (7, 5): 'B', (7, 6): 'B'}
+AI took 0.03 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+AI took 0.01 seconds to make a move.
+
+Game started
+
+{(1, 0): 'W', (2, 0): 'W', (3, 0): 'W', (4, 0): 'W', (5, 0): 'W', (6, 0): 'W', (1, 7): 'W', (2, 7): 'W', (3, 7): 'W', (4, 7): 'W', (5, 7): 'W', (6, 7): 'W', (0, 1): 'B', (0, 2): 'B', (0, 3): 'B', (0, 4): 'B', (0, 5): 'B', (0, 6): 'B', (7, 1): 'B', (7, 2): 'B', (7, 3): 'B', (7, 4): 'B', (7, 5): 'B', (7, 6): 'B'}
+AI took 0.38 seconds to make a move.
+
+{(1, 0): 'W', (2, 0): 'W', (3, 0): 'W', (4, 0): 'W', (5, 0): 'W', (6, 0): 'W', (1, 7): 'W', (2, 7): 'W', (3, 7): 'W', (4, 7): 'W', (5, 7): 'W', (6, 7): 'W', (0, 1): 'B', (0, 2): 'B', (0, 3): 'B', (0, 4): 'B', (0, 5): 'B', (7, 1): 'B', (7, 2): 'B', (7, 3): 'B', (7, 4): 'B', (7, 5): 'B', (7, 6): 'B', (2, 4): 'B'}
+AI took 1.36 seconds to make a move.
+
+{(1, 0): 'W', (2, 0): 'W', (3, 0): 'W', (4, 0): 'W', (5, 0): 'W', (6, 0): 'W', (2, 7): 'W', (3, 7): 'W', (4, 7): 'W', (5, 7): 'W', (6, 7): 'W', (0, 1): 'B', (0, 2): 'B', (0, 3): 'B', (0, 4): 'B', (0, 5): 'B', (7, 1): 'B', (7, 2): 'B', (7, 3): 'B', (7, 4): 'B', (7, 5): 'B', (7, 6): 'B', (2, 4): 'B', (3, 5): 'W'}
+AI took 0.64 seconds to make a move.
+
+{(1, 0): 'W', (2, 0): 'W', (3, 0): 'W', (4, 0): 'W', (5, 0): 'W', (6, 0): 'W', (2, 7): 'W', (3, 7): 'W', (4, 7): 'W', (5, 7): 'W', (6, 7): 'W', (0, 1): 'B', (0, 2): 'B', (0, 3): 'B', (0, 4): 'B', (0, 5): 'B', (7, 1): 'B', (7, 2): 'B', (7, 3): 'B', (7, 4): 'B', (7, 5): 'B', (2, 4): 'B', (3, 5): 'W', (5, 4): 'B'}
+AI took 1.44 seconds to make a move.
+
+{(1, 0): 'W', (2, 0): 'W', (3, 0): 'W', (4, 0): 'W', (5, 0): 'W', (6, 0): 'W', (3, 7): 'W', (4, 7): 'W', (5, 7): 'W', (6, 7): 'W', (0, 1): 'B', (0, 2): 'B', (0, 3): 'B', (0, 4): 'B', (0, 5): 'B', (7, 1): 'B', (7, 2): 'B', (7, 3): 'B', (7, 4): 'B', (7, 5): 'B', (2, 4): 'B', (3, 5): 'W', (5, 4): 'W'}
+AI took 0.56 seconds to make a move.
+
+{(1, 0): 'W', (2, 0): 'W', (3, 0): 'W', (4, 0): 'W', (5, 0): 'W', (6, 0): 'W', (3, 7): 'W', (4, 7): 'W', (5, 7): 'W', (6, 7): 'W', (0, 1): 'B', (0, 2): 'B', (0, 3): 'B', (0, 4): 'B', (0, 5): 'B', (7, 2): 'B', (7, 3): 'B', (7, 4): 'B', (7, 5): 'B', (2, 4): 'B', (3, 5): 'W', (5, 4): 'W', (5, 3): 'B'}
+AI took 1.76 seconds to make a move.
+
+{(2, 0): 'W', (3, 0): 'W', (4, 0): 'W', (5, 0): 'W', (6, 0): 'W', (3, 7): 'W', (4, 7): 'W', (5, 7): 'W', (6, 7): 'W', (0, 1): 'B', (0, 2): 'B', (0, 3): 'B', (0, 4): 'B', (0, 5): 'B', (7, 2): 'B', (7, 3): 'B', (7, 4): 'B', (7, 5): 'B', (2, 4): 'B', (3, 5): 'W', (5, 4): 'W', (5, 3): 'B', (3, 2): 'W'}
+AI took 0.68 seconds to make a move.
+
+{(2, 0): 'W', (3, 0): 'W', (4, 0): 'W', (5, 0): 'W', (6, 0): 'W', (3, 7): 'W', (4, 7): 'W', (5, 7): 'W', (6, 7): 'W', (0, 2): 'B', (0, 3): 'B', (0, 4): 'B', (0, 5): 'B', (7, 2): 'B', (7, 3): 'B', (7, 4): 'B', (7, 5): 'B', (2, 4): 'B', (3, 5): 'W', (5, 4): 'W', (5, 3): 'B', (3, 2): 'W', (2, 3): 'B'}
+AI took 0.98 seconds to make a move.
+
+{(3, 0): 'W', (4, 0): 'W', (5, 0): 'W', (6, 0): 'W', (3, 7): 'W', (4, 7): 'W', (5, 7): 'W', (6, 7): 'W', (0, 2): 'B', (0, 3): 'B', (0, 4): 'B', (0, 5): 'B', (7, 2): 'B', (7, 3): 'B', (7, 4): 'B', (7, 5): 'B', (2, 4): 'B', (3, 5): 'W', (5, 4): 'W', (5, 3): 'B', (3, 2): 'W', (2, 3): 'W'}
+AI took 0.38 seconds to make a move.
+
+{(3, 0): 'W', (4, 0): 'W', (5, 0): 'W', (6, 0): 'W', (3, 7): 'W', (4, 7): 'W', (5, 7): 'W', (6, 7): 'W', (0, 2): 'B', (0, 3): 'B', (0, 5): 'B', (7, 2): 'B', (7, 3): 'B', (7, 4): 'B', (7, 5): 'B', (2, 4): 'B', (3, 5): 'W', (5, 4): 'W', (5, 3): 'B', (3, 2): 'W', (2, 3): 'W', (4, 4): 'B'}
+AI took 1.47 seconds to make a move.
+
+{(3, 0): 'W', (4, 0): 'W', (5, 0): 'W', (6, 0): 'W', (3, 7): 'W', (5, 7): 'W', (6, 7): 'W', (0, 2): 'B', (0, 3): 'B', (0, 5): 'B', (7, 2): 'B', (7, 3): 'B', (7, 4): 'B', (7, 5): 'B', (2, 4): 'B', (3, 5): 'W', (5, 4): 'W', (5, 3): 'B', (3, 2): 'W', (2, 3): 'W', (4, 4): 'W'}
+AI took 0.26 seconds to make a move.
+
+{(3, 0): 'W', (4, 0): 'W', (5, 0): 'W', (6, 0): 'W', (3, 7): 'W', (5, 7): 'W', (6, 7): 'W', (0, 2): 'B', (0, 3): 'B', (0, 5): 'B', (7, 3): 'B', (7, 4): 'B', (7, 5): 'B', (2, 4): 'B', (3, 5): 'W', (5, 4): 'W', (5, 3): 'B', (3, 2): 'W', (2, 3): 'W', (4, 4): 'W', (4, 2): 'B'}
+AI took 1.52 seconds to make a move.
+
+{(4, 0): 'W', (5, 0): 'W', (6, 0): 'W', (3, 7): 'W', (5, 7): 'W', (6, 7): 'W', (0, 2): 'B', (0, 3): 'B', (0, 5): 'B', (7, 3): 'B', (7, 4): 'B', (7, 5): 'B', (2, 4): 'B', (3, 5): 'W', (5, 4): 'W', (5, 3): 'B', (3, 2): 'W', (2, 3): 'W', (4, 4): 'W', (4, 2): 'B', (3, 4): 'W'}

@@ -1,0 +1,533 @@
+
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 1), (2, 3))
+                Time: 22.75s
+                Depth: 4
+                Nodes: 137569
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (2, 3))
+                Time: 17.54s
+                Depth: 4
+                Nodes: 149234
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 2), (2, 4))
+                Time: 13.61s
+                Depth: 4
+                Nodes: 261261
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 7), (4, 5))
+                Time: 24.50s
+                Depth: 4
+                Nodes: 385233
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 2), (4, 5))
+                Time: 19.37s
+                Depth: 4
+                Nodes: 434075
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 6), (2, 4))
+                Time: 4.33s
+                Depth: 3
+                Nodes: 11034
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (3, 5))
+                Time: 4.24s
+                Depth: 3
+                Nodes: 12597
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 5), (3, 5))
+                Time: 2.41s
+                Depth: 3
+                Nodes: 25220
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (3, 2))
+                Time: 1.36s
+                Depth: 3
+                Nodes: 23823
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 2), (3, 2))
+                Time: 1.78s
+                Depth: 3
+                Nodes: 41126
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 0), (3, 2))
+                Time: 0.78s
+                Depth: 3
+                Nodes: 30571
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 1), (2, 3))
+                Time: 1.39s
+                Depth: 3
+                Nodes: 54643
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (4, 2))
+                Time: 0.75s
+                Depth: 3
+                Nodes: 37267
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 2), (4, 2))
+                Time: 1.75s
+                Depth: 3
+                Nodes: 71173
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 7), (2, 4))
+                Time: 0.55s
+                Depth: 3
+                Nodes: 42159
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 1), (5, 3))
+                Time: 0.80s
+                Depth: 3
+                Nodes: 79643
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 7), (4, 5))
+                Time: 0.69s
+                Depth: 3
+                Nodes: 48646
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 3), (4, 5))
+                Time: 1.09s
+                Depth: 3
+                Nodes: 90519
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 0), (3, 4))
+                Time: 0.60s
+                Depth: 3
+                Nodes: 54005
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 7), (5, 4))
+                Time: 0.63s
+                Depth: 3
+                Nodes: 60050
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 3), (3, 3))
+                Time: 0.76s
+                Depth: 3
+                Nodes: 110373
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 7), (5, 5))
+                Time: 0.79s
+                Depth: 3
+                Nodes: 68385
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 3), (5, 5))
+                Time: 0.94s
+                Depth: 3
+                Nodes: 120236
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (7, 1))
+                Time: 0.46s
+                Depth: 3
+                Nodes: 73355
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 4), (2, 2))
+                Time: 0.58s
+                Depth: 3
+                Nodes: 127832
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 1), (7, 4))
+                Time: 0.55s
+                Depth: 3
+                Nodes: 79241
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 2), (2, 4))
+                Time: 0.37s
+                Depth: 3
+                Nodes: 132420
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 0), (5, 1))
+                Time: 0.49s
+                Depth: 3
+                Nodes: 84671
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 5), (6, 6))
+                Time: 0.16s
+                Depth: 3
+                Nodes: 134756
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 6), (2, 4))
+                Time: 4.30s
+                Depth: 3
+                Nodes: 11034
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 6), (2, 4))
+                Time: 4.29s
+                Depth: 3
+                Nodes: 11034
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (4, 2))
+                Time: 4.00s
+                Depth: 3
+                Nodes: 10285
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 6), (2, 4))
+                Time: 3.77s
+                Depth: 3
+                Nodes: 11034
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (3, 5))
+                Time: 4.42s
+                Depth: 3
+                Nodes: 12597
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 5), (3, 5))
+                Time: 2.00s
+                Depth: 3
+                Nodes: 25220
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (3, 2))
+                Time: 1.39s
+                Depth: 3
+                Nodes: 23823
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 2), (2, 2))
+                Time: 4.21s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (4, 2))
+                Time: 3.22s
+                Depth: 3
+                Nodes: 9224
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((2, 2), (3, 3))
+                Time: 2.09s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (5, 3))
+                Time: 1.98s
+                Depth: 3
+                Nodes: 22814
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 1), (2, 3))
+                Time: 0.93s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (4, 4))
+                Time: 1.51s
+                Depth: 3
+                Nodes: 34860
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((3, 3), (1, 1))
+                Time: 1.50s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 0), (2, 3))
+                Time: 1.97s
+                Depth: 3
+                Nodes: 52259
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 4), (3, 4))
+                Time: 0.83s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (3, 2))
+                Time: 1.78s
+                Depth: 3
+                Nodes: 68407
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((3, 4), (0, 4))
+                Time: 1.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 0), (3, 3))
+                Time: 3.52s
+                Depth: 3
+                Nodes: 101001
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 4), (4, 4))
+                Time: 1.15s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 0), (4, 4))
+                Time: 1.38s
+                Depth: 3
+                Nodes: 112930
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 6), (0, 2))
+                Time: 0.88s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 7), (4, 5))
+                Time: 2.71s
+                Depth: 3
+                Nodes: 140957
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 5), (4, 5))
+                Time: 0.77s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 7), (3, 4))
+                Time: 1.23s
+                Depth: 3
+                Nodes: 153166
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((4, 5), (6, 3))
+                Time: 1.06s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 2), (5, 4))
+                Time: 2.20s
+                Depth: 3
+                Nodes: 176064
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 2), (4, 2))
+                Time: 0.88s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 7), (6, 5))
+                Time: 1.50s
+                Depth: 3
+                Nodes: 190848
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((6, 3), (6, 5))
+                Time: 0.94s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 7), (3, 5))
+                Time: 1.60s
+                Depth: 3
+                Nodes: 207222
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 3), (0, 7))
+                Time: 0.43s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 7), (3, 6))
+                Time: 0.55s
+                Depth: 3
+                Nodes: 213027
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((4, 7), (4, 5))
+                Time: 3.69s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((4, 5), (4, 3))
+                Time: 3.22s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((3, 7), (3, 5))
+                Time: 4.26s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((3, 0), (4, 1))
+                Time: 2.83s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((1, 0), (3, 2))
+                Time: 3.91s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((4, 3), (5, 2))
+                Time: 3.80s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((3, 2), (4, 3))
+                Time: 3.33s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((2, 0), (3, 1))
+                Time: 3.38s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((4, 3), (3, 3))
+                Time: 5.91s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((6, 0), (4, 2))
+                Time: 3.43s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((5, 7), (6, 6))
+                Time: 4.38s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((2, 7), (5, 7))
+                Time: 3.70s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((4, 0), (6, 0))
+                Time: 4.66s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((5, 0), (7, 0))
+                Time: 3.99s
+                Depth: 3
+                Nodes: 0
+
+                

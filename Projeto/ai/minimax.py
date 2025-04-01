@@ -90,12 +90,11 @@ class MinimaxAI(BaseAI):
         # Central control metric
         central_control = sum(abs(r - self.settings.rows // 2) + abs(c - self.settings.cols // 2) for (r, c) in player_positions)
 
-        # Opponent mobility metric
-        opponent_moves = self.get_all_valid_moves(board, opponent)
-        nopponent_moves = sum((len(moves)-1) for moves in opponent_moves.values())  # Count opponent's valid moves
+        player_moves = self.get_all_valid_moves(board, player)
+        nplayer_moves = sum((len(moves)-1) for moves in player_moves.values())
 
-        #return cluster_score * 2 + (len(opponent_positions) * 5) - central_control * 15 - nopponent_moves * 1
-        return cluster_score * 2 + (len(opponent_positions) * 3) - central_control * 25
+        #return cluster_score * 2 + (len(opponent_positions) * 3) - central_control * 25
+        return cluster_score * 3 + (len(opponent_positions) * 5) - central_control * 10 + nplayer_moves * 10 
 
     def _move_piece_on_board(self, board, from_pos, to_pos):
         """Move a piece on the board without updating the visual representation."""

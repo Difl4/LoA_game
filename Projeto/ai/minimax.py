@@ -47,9 +47,9 @@ class MinimaxAI(BaseAI):
 
         def analyze_clusters(board, player_positions):
             visited = set()
-            clusters = {}
+            clusters = []
 
-            cluster_id = 0  # Unique ID for each cluster
+            #cluster_id = 0  # Unique ID for each cluster
 
             for position in player_positions:
                 if position not in visited:
@@ -70,9 +70,10 @@ class MinimaxAI(BaseAI):
                             if (nr, nc) in player_positions and (nr, nc) not in visited:
                                 stack.append((nr, nc))
 
-                    clusters[cluster_id] = cluster_size
-                    cluster_id += 1
+                    clusters.append(cluster_size)
+                    #cluster_id += 1
 
+            #print(f"Clusters: {clusters}")
             return len(clusters), clusters
 
         np_clusters, p_clusters = analyze_clusters(board, player_positions)
@@ -83,17 +84,18 @@ class MinimaxAI(BaseAI):
         if no_clusters == 1:
             return -100000  # Opponent wins
 
-        cluster_score = sum(size ** 2 for size in p_clusters.values()) - sum(size ** 2 for size in o_clusters.values())
-        cluster_score *= no_clusters / np_clusters
+        cluster_score = 0
+        cluster_score += sum([cluster ** 2 for cluster in p_clusters]) 
+        cluster_score *= no_clusters / (np_clusters**2)
 
         # Central control metric
         central_control = sum(abs(r - self.settings.rows // 2) + abs(c - self.settings.cols // 2) for (r, c) in player_positions)
 
         # Opponent mobility metric
         opponent_moves = self.get_all_valid_moves(board, opponent)
-        nopponent_positions = sum(len(moves) for moves in opponent_moves.values())  # Count opponent's valid moves
+        nopponent_moves = sum((len(moves)-1) for moves in opponent_moves.values())  # Count opponent's valid moves
 
-        return cluster_score + len(opponent_positions) * 25 - central_control * 10 - nopponent_positions * 10
+        return cluster_score * 2 + (len(opponent_positions) * 5) - central_control * 15 - nopponent_moves * 1
 
     def _move_piece_on_board(self, board, from_pos, to_pos):
         """Move a piece on the board without updating the visual representation."""

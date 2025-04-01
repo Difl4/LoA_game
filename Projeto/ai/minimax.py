@@ -73,7 +73,6 @@ class MinimaxAI(BaseAI):
                     clusters.append(cluster_size)
                     #cluster_id += 1
 
-            #print(f"Clusters: {clusters}")
             return len(clusters), clusters
 
         np_clusters, p_clusters = analyze_clusters(board, player_positions)
@@ -95,7 +94,8 @@ class MinimaxAI(BaseAI):
         opponent_moves = self.get_all_valid_moves(board, opponent)
         nopponent_moves = sum((len(moves)-1) for moves in opponent_moves.values())  # Count opponent's valid moves
 
-        return cluster_score * 2 + (len(opponent_positions) * 5) - central_control * 15 - nopponent_moves * 1
+        #return cluster_score * 2 + (len(opponent_positions) * 5) - central_control * 15 - nopponent_moves * 1
+        return cluster_score * 2 + (len(opponent_positions) * 3) - central_control * 25
 
     def _move_piece_on_board(self, board, from_pos, to_pos):
         """Move a piece on the board without updating the visual representation."""

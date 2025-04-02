@@ -1,16 +1,15 @@
 # ai/base_ai.py
-# esta clase não fui eu que criei foi totalmente o chat gpt.
-# A ideia é estruturar as futuras IAs com base nesta porque todas vão ter algo em comum.
-# Utilizamos "inheritance" desta classe e depois também é útil para verificar se se trata de uma IA porque basta usar o método isinstance() com esta classe
-from abc import ABC, abstractmethod
 
-class BaseAI(ABC):
+class BaseAI():
     """Interface all AIs must follow."""
     def __init__(self, game, color):
         self.game = game
         self.color = color
+        self.search_depth = 3
+        self.nodes_explored = 0
+        self.last_eval = None
 
-    @abstractmethod
     def get_move(self, board_state) -> tuple[tuple[int, int], tuple[int, int]]:
-        """Return (from_pos, to_pos) for the best move."""
-        pass
+        """Return the best move based on plain minimax."""
+        _, best_move = self.minimax(board_state, depth=self.search_depth, maximizing_player=True, player=self.color)
+        return best_move

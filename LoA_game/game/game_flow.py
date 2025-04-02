@@ -1,11 +1,15 @@
-from ai.ai_model_A import AiModelA
+from ai.base_ai import BaseAI
+from ai.minimax_alpha_beta import AiModelA_AlphaBeta
+from ai.minimax_no_pruning import AiModelA_NoPruning
 from config.translations import get_matrix_position
+import threading
 import time
 
 class GameFlow:
     """Handles the flow of the game, including turns and win checking."""
 
     def __init__(self, game):
+
         self.board = game.board
         self.movement = game.movement
         self.win_checker = game.win_checker
@@ -20,10 +24,14 @@ class GameFlow:
 
         self.PLAYER_MAP = {
             'Human': None,
-            'AI Model A': AiModelA,
-            'AI Model B': AiModelA  # Placeholder for future AI model
+            'Minimax(cuts)': AiModelA_AlphaBeta,
+            'Minimax(no cuts)': AiModelA_NoPruning
         }
 
+        # Ai flags
+        self.ai_thinking = False
+        self.ai_move = None
+        self.ai_player = None
 
     def start_game(self, white_choice, black_choice):
         """Initialize players and start the game using a dictionary mapping."""
@@ -45,27 +53,56 @@ class GameFlow:
 
     def handle_turn(self):
         """Handle the turn for the current player."""
+        if self.ai_thinking:
+            return  # Don't process anything while AI is thinking
+        
         current_player = self.black_player if self.current_turn == 'B' else self.white_player
-        if isinstance(current_player, AiModelA):  # Replace with BaseAI when other models exist
-            self._play_ai_turn(current_player)
+        if isinstance(current_player, BaseAI):
+            self._start_ai_turn(current_player)
 
-    def _play_ai_turn(self, ai_player):
-        """Handle AI's turn to make a move."""
-        start = time.time()
-        if(self.current_turn == 'W'):
-            _, best_move = ai_player.minimax(self.board.board_dict, 3, True, ai_player.color, ai_player.evaluate)
-        else:
-            _, best_move = ai_player.minimax(self.board.board_dict, 4, True, ai_player.color, ai_player.evaluate1)
-        time_taken = time.time() - start
-        logfile = open("log.txt", "a").write(f"AI took {time_taken:.2f} seconds to make a move.\n\n")
-        print(f"AI took {time_taken:.2f} seconds to make a move.")
-        if best_move:
-            self._move_piece(*best_move)
-        self.check_for_winner()
+    def _start_ai_turn(self, ai_player):
+        """Launch AI calculation in a separate thread"""
+        self.ai_thinking = True
+        self.ai_move = None
+        self.ai_player = ai_player
+    
+        def ai_thread():
+            start = time.time()
+    
+            self.ai_move = self.ai_player.get_move(self.board.board_dict)
+    
+            time_taken = time.time() - start
+            with open("log.txt", "a") as logfile:
+                logfile.write(f"""
+                AI Type: {type(ai_player).__name__}
+                Move: {self.ai_move}
+                Time: {time_taken:.2f}s
+                Depth: {self.ai_player.search_depth}
+                Nodes: {self.ai_player.nodes_explored}
+                Eval: {self.ai_player.last_eval}\n
+                """)
+
+        threading.Thread(target=ai_thread, daemon=True).start()
+
+    def update(self):
+        """Should be called every frame from main game loop"""
+        if self.ai_thinking and self.ai_move is not None:
+            self._finish_ai_turn()
+
+    def _finish_ai_turn(self):
+        """Execute the AI's move and clean up"""
+        try:
+            if self.ai_move:
+                self._move_piece(*self.ai_move)
+                self.check_for_winner()
+        finally:
+            self.ai_thinking = False
+            self.ai_move = None
+            self.ai_player = None
 
     def _move_piece(self, from_pos, to_pos):
         """Move a piece on the board."""
-        print(f"Moving piece from {from_pos} to {to_pos}")
+        print(f"{self.current_turn} moving piece from {from_pos} to {to_pos}")
         row_from, col_from = from_pos
         row_to, col_to = to_pos
 
@@ -81,8 +118,6 @@ class GameFlow:
             if piece.rect.topleft == (col_from * self.settings.square_size, row_from * self.settings.square_size):
                 piece.rect.topleft = (col_to * self.settings.square_size, row_to * self.settings.square_size)
                 break
-
-        logfile = open("log.txt", "a").write(f"{self.board.board_dict}\n")
 
         self.selected_piece = None
         self.valid_moves = []
@@ -100,7 +135,6 @@ class GameFlow:
         """Check if there is a winner."""
         if self.win_checker.check_win(self.current_turn):
             print(f"{self.current_turn} wins!")
-            logfile = open("log.txt", "a").write(f"{self.current_turn} wins!\n")
             self.game_active = False
             self.reset_game()
         else:
@@ -117,6 +151,10 @@ class GameFlow:
 
     def select_piece(self, pos):
         """Handle piece selection and valid move generation."""
+
+        if not self.game_active or isinstance((self.black_player if self.current_turn == 'B' else self.white_player), BaseAI):
+            return  # Ignore clicks when it's the AI's turn
+        
         row, col = get_matrix_position(pos[0], pos[1], self.settings.square_size)
         clicked_piece = self.board.board_dict.get((row, col))
 

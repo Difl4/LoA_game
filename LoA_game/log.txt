@@ -1,0 +1,76 @@
+AI took 5.56 seconds to make a move.
+
+AI took 6.43 seconds to make a move.
+
+AI took 7.35 seconds to make a move.
+
+AI took 5.77 seconds to make a move.
+
+AI took 7.75 seconds to make a move.
+
+AI took 3.48 seconds to make a move.
+
+AI took 6.08 seconds to make a move.
+
+AI took 3.30 seconds to make a move.
+
+AI took 7.62 seconds to make a move.
+
+AI took 2.40 seconds to make a move.
+
+AI took 3.59 seconds to make a move.
+
+AI took 3.03 seconds to make a move.
+
+AI took 4.70 seconds to make a move.
+
+AI took 2.47 seconds to make a move.
+
+AI took 4.61 seconds to make a move.
+
+AI took 2.81 seconds to make a move.
+
+AI took 3.30 seconds to make a move.
+
+AI took 3.56 seconds to make a move.
+
+AI took 3.91 seconds to make a move.
+
+AI took 2.08 seconds to make a move.
+
+AI took 2.69 seconds to make a move.
+
+AI took 2.48 seconds to make a move.
+
+AI took 1.58 seconds to make a move.
+
+AI took 2.12 seconds to make a move.
+
+AI took 0.72 seconds to make a move.
+
+AI took 5.16 seconds to make a move.
+
+AI took 6.41 seconds to make a move.
+
+AI took 5.71 seconds to make a move.
+
+AI took 3.83 seconds to make a move.
+
+AI took 6.49 seconds to make a move.
+
+AI took 6.91 seconds to make a move.
+
+AI took 6.69 seconds to make a move.
+
+AI took 6.54 seconds to make a move.
+
+AI took 6.90 seconds to make a move.
+
+AI took 8.05 seconds to make a move.
+
+AI took 8.92 seconds to make a move.
+
+AI took 6.56 seconds to make a move.
+
+AI took 6.52 seconds to make a move.
+

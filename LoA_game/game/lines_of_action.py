@@ -8,6 +8,8 @@ from ui.button import Button
 from ui.option_button import OptionButton
 from game.game_flow import GameFlow
 
+from ai.base_ai import BaseAI
+
 class LinesOfAction:
     def __init__(self):
         """Initialize the game, and create game resources."""
@@ -39,21 +41,26 @@ class LinesOfAction:
 
     def run_game(self):
         """Start the main loop for the game."""
-        logfile = open("log.txt", "a").write("Game started\n\n")
-        logfile = open("log.txt", "a").write(f"{self.board.board_dict}\n")
         while True:
             self._check_events()
             self._update_screen()
+
             if self.game_flow.game_active:
                 self.game_flow.handle_turn()  # <-- Handle AI turn if necessary
+                self.game_flow.update()
+
             self.clock.tick(self.settings.fps)
 
     def _check_events(self):
         """Handle key and mouse events."""
+
+        current_player = self.game_flow.black_player if self.game_flow.current_turn == 'B' else self.game_flow.white_player
+        is_ai_turn = isinstance(current_player, BaseAI)
+
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 sys.exit()
-            elif event.type == pygame.MOUSEBUTTONDOWN:
+            elif event.type == pygame.MOUSEBUTTONDOWN and not is_ai_turn:
                 mouse_pos = pygame.mouse.get_pos()
                 if not self.game_flow.game_active:
                     self._check_play_button(mouse_pos)
@@ -67,8 +74,8 @@ class LinesOfAction:
         if self.play_button.rect.collidepoint(mouse_pos):
             self.game_flow.game_active = True
 
-            white_choice = self.white_selector.options[self.white_selector.selected_index]
-            black_choice = self.black_selector.options[self.black_selector.selected_index]
+            white_choice = self.settings.player_options[self.white_selector.selected_index]
+            black_choice = self.settings.player_options[self.black_selector.selected_index]
 
             # Pass the choices to the game flow to initialize the players (including AI)
             self.game_flow.start_game(white_choice, black_choice)  # <-- Initialize game flow with player choices

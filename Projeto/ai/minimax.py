@@ -94,7 +94,7 @@ class MinimaxAI(BaseAI):
         nplayer_moves = sum((len(moves)-1) for moves in player_moves.values())
 
         #return cluster_score * 2 + (len(opponent_positions) * 3) - central_control * 25
-        return cluster_score * 3 + (len(opponent_positions) * 5) - central_control * 10 + nplayer_moves * 10 
+        return cluster_score * 3 + (len(opponent_positions) * 5) - central_control * 15 + nplayer_moves * 10 
 
     def _move_piece_on_board(self, board, from_pos, to_pos):
         """Move a piece on the board without updating the visual representation."""

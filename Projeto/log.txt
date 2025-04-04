@@ -531,3 +531,7066 @@
                 Nodes: 0
 
                 
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 1), (2, 3))
+                Time: 2.14s
+                Depth: 3
+                Nodes: 5521
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (4, 2))
+                Time: 2.62s
+                Depth: 3
+                Nodes: 6651
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 2), (2, 4))
+                Time: 2.80s
+                Depth: 3
+                Nodes: 12121
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (5, 3))
+                Time: 1.83s
+                Depth: 3
+                Nodes: 12918
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 6), (3, 3))
+                Time: 1.06s
+                Depth: 3
+                Nodes: 17720
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (4, 4))
+                Time: 0.63s
+                Depth: 3
+                Nodes: 17553
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 5), (3, 2))
+                Time: 0.91s
+                Depth: 3
+                Nodes: 24957
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (1, 1))
+                Time: 1.07s
+                Depth: 3
+                Nodes: 25727
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 6), (5, 4))
+                Time: 1.26s
+                Depth: 3
+                Nodes: 34722
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 1), (3, 1))
+                Time: 1.09s
+                Depth: 3
+                Nodes: 34170
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 2), (4, 5))
+                Time: 1.07s
+                Depth: 3
+                Nodes: 42863
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 0), (5, 4))
+                Time: 0.66s
+                Depth: 3
+                Nodes: 39317
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 1), (5, 1))
+                Time: 0.92s
+                Depth: 3
+                Nodes: 50421
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 0), (5, 2))
+                Time: 1.00s
+                Depth: 3
+                Nodes: 47163
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 3), (2, 5))
+                Time: 1.87s
+                Depth: 3
+                Nodes: 65428
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 7), (6, 6))
+                Time: 1.01s
+                Depth: 3
+                Nodes: 54647
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 5), (7, 2))
+                Time: 1.30s
+                Depth: 3
+                Nodes: 75584
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 7), (6, 5))
+                Time: 1.18s
+                Depth: 3
+                Nodes: 63579
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 3), (4, 1))
+                Time: 0.86s
+                Depth: 3
+                Nodes: 82622
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 7), (3, 5))
+                Time: 0.68s
+                Depth: 3
+                Nodes: 68881
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 2), (6, 1))
+                Time: 0.72s
+                Depth: 3
+                Nodes: 88488
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 7), (4, 7))
+                Time: 0.62s
+                Depth: 3
+                Nodes: 73759
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 1), (6, 4))
+                Time: 0.81s
+                Depth: 3
+                Nodes: 94862
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 7), (5, 7))
+                Time: 0.21s
+                Depth: 3
+                Nodes: 75399
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 1), (2, 3))
+                Time: 2.15s
+                Depth: 3
+                Nodes: 5521
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (4, 2))
+                Time: 1.30s
+                Depth: 3
+                Nodes: 3786
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 7), (6, 6))
+                Time: 1.83s
+                Depth: 3
+                Nodes: 8751
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 0), (5, 3))
+                Time: 2.17s
+                Depth: 3
+                Nodes: 14272
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (3, 2))
+                Time: 1.74s
+                Depth: 3
+                Nodes: 18906
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 0), (4, 3))
+                Time: 2.49s
+                Depth: 3
+                Nodes: 24541
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (4, 2))
+                Time: 2.55s
+                Depth: 3
+                Nodes: 37106
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (1, 6))
+                Time: 3.27s
+                Depth: 3
+                Nodes: 45014
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 0), (4, 1))
+                Time: 3.87s
+                Depth: 3
+                Nodes: 55177
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 6), (1, 4))
+                Time: 2.78s
+                Depth: 3
+                Nodes: 62922
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 1), (4, 2))
+                Time: 2.18s
+                Depth: 3
+                Nodes: 75483
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 1), (2, 3))
+                Time: 4.55s
+                Depth: 3
+                Nodes: 11375
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (4, 2))
+                Time: 4.84s
+                Depth: 3
+                Nodes: 13200
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 2), (2, 4))
+                Time: 2.91s
+                Depth: 3
+                Nodes: 26651
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (3, 5))
+                Time: 2.06s
+                Depth: 3
+                Nodes: 27639
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 6), (3, 3))
+                Time: 1.59s
+                Depth: 3
+                Nodes: 39364
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (5, 3))
+                Time: 1.78s
+                Depth: 3
+                Nodes: 41487
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 5), (3, 2))
+                Time: 1.66s
+                Depth: 3
+                Nodes: 52267
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (1, 1))
+                Time: 1.34s
+                Depth: 3
+                Nodes: 52355
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 4), (3, 4))
+                Time: 1.80s
+                Depth: 3
+                Nodes: 65965
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 7), (3, 4))
+                Time: 1.70s
+                Depth: 3
+                Nodes: 65616
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 3), (2, 5))
+                Time: 1.44s
+                Depth: 3
+                Nodes: 77759
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 7), (4, 5))
+                Time: 1.81s
+                Depth: 3
+                Nodes: 79434
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 6), (5, 4))
+                Time: 1.37s
+                Depth: 3
+                Nodes: 88770
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 1), (3, 3))
+                Time: 1.91s
+                Depth: 3
+                Nodes: 94487
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 1), (7, 6))
+                Time: 0.77s
+                Depth: 3
+                Nodes: 95943
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 0), (4, 4))
+                Time: 1.63s
+                Depth: 3
+                Nodes: 106944
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 2), (6, 5))
+                Time: 0.74s
+                Depth: 3
+                Nodes: 102458
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 0), (5, 2))
+                Time: 1.57s
+                Depth: 3
+                Nodes: 118374
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 6), (4, 3))
+                Time: 0.65s
+                Depth: 3
+                Nodes: 108476
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 0), (4, 0))
+                Time: 1.05s
+                Depth: 3
+                Nodes: 126253
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 2), (4, 5))
+                Time: 0.72s
+                Depth: 3
+                Nodes: 114674
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 0), (3, 1))
+                Time: 1.19s
+                Depth: 3
+                Nodes: 136005
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 3), (2, 6))
+                Time: 0.89s
+                Depth: 3
+                Nodes: 143300
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 1), (0, 7))
+                Time: 3.36s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (3, 5))
+                Time: 4.36s
+                Depth: 3
+                Nodes: 10816
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 2), (3, 5))
+                Time: 2.68s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 7), (5, 6))
+                Time: 1.50s
+                Depth: 3
+                Nodes: 23027
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 7), (1, 6))
+                Time: 2.00s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 7), (4, 5))
+                Time: 1.67s
+                Depth: 3
+                Nodes: 37647
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 5), (4, 5))
+                Time: 1.43s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 7), (5, 5))
+                Time: 1.28s
+                Depth: 3
+                Nodes: 49260
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 3), (2, 5))
+                Time: 1.14s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (4, 2))
+                Time: 1.36s
+                Depth: 3
+                Nodes: 61815
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 4), (1, 5))
+                Time: 1.30s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (3, 2))
+                Time: 1.09s
+                Depth: 3
+                Nodes: 72209
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 4), (6, 4))
+                Time: 1.41s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 0), (5, 4))
+                Time: 1.10s
+                Depth: 3
+                Nodes: 81953
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 6), (3, 3))
+                Time: 1.08s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (6, 4))
+                Time: 1.19s
+                Depth: 3
+                Nodes: 92583
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((1, 6), (1, 4))
+                Time: 1.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 0), (4, 1))
+                Time: 0.98s
+                Depth: 3
+                Nodes: 101458
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 6), (5, 6))
+                Time: 1.08s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 7), (3, 5))
+                Time: 1.03s
+                Depth: 3
+                Nodes: 111295
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 5), (6, 6))
+                Time: 0.82s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 5), (4, 6))
+                Time: 0.89s
+                Depth: 3
+                Nodes: 119331
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((1, 5), (5, 5))
+                Time: 0.89s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 4), (3, 4))
+                Time: 0.64s
+                Depth: 3
+                Nodes: 126064
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((3, 3), (1, 3))
+                Time: 0.93s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 2), (3, 3))
+                Time: 0.74s
+                Depth: 3
+                Nodes: 133748
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((6, 6), (3, 3))
+                Time: 0.44s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 0), (4, 5))
+                Time: 0.35s
+                Depth: 3
+                Nodes: 137959
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((1, 4), (4, 7))
+                Time: 0.34s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 1), (2, 3))
+                Time: 0.25s
+                Depth: 3
+                Nodes: 141521
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 1), (0, 7))
+                Time: 3.32s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (3, 5))
+                Time: 4.42s
+                Depth: 3
+                Nodes: 10816
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 2), (3, 5))
+                Time: 3.99s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 7), (5, 6))
+                Time: 2.24s
+                Depth: 3
+                Nodes: 23027
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 7), (1, 6))
+                Time: 2.07s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 7), (4, 5))
+                Time: 1.65s
+                Depth: 3
+                Nodes: 37647
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 5), (4, 5))
+                Time: 1.43s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 7), (5, 5))
+                Time: 1.21s
+                Depth: 3
+                Nodes: 49260
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 3), (2, 5))
+                Time: 1.14s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (4, 2))
+                Time: 1.40s
+                Depth: 3
+                Nodes: 61815
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 4), (1, 5))
+                Time: 1.36s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (3, 2))
+                Time: 1.16s
+                Depth: 3
+                Nodes: 72209
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 4), (6, 4))
+                Time: 1.47s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 0), (5, 4))
+                Time: 1.15s
+                Depth: 3
+                Nodes: 81953
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 6), (3, 3))
+                Time: 1.08s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (6, 4))
+                Time: 1.22s
+                Depth: 3
+                Nodes: 92583
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((1, 6), (1, 4))
+                Time: 1.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 0), (4, 1))
+                Time: 0.99s
+                Depth: 3
+                Nodes: 101458
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 6), (5, 6))
+                Time: 1.14s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 7), (3, 5))
+                Time: 1.06s
+                Depth: 3
+                Nodes: 111295
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 5), (6, 6))
+                Time: 0.87s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 5), (4, 6))
+                Time: 0.85s
+                Depth: 3
+                Nodes: 119331
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((1, 5), (5, 5))
+                Time: 0.95s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 4), (3, 4))
+                Time: 0.63s
+                Depth: 3
+                Nodes: 126064
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((3, 3), (1, 3))
+                Time: 0.92s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 2), (3, 3))
+                Time: 0.75s
+                Depth: 3
+                Nodes: 133748
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((6, 6), (3, 3))
+                Time: 0.42s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 0), (4, 5))
+                Time: 0.35s
+                Depth: 3
+                Nodes: 137959
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((1, 4), (4, 7))
+                Time: 0.34s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 1), (2, 3))
+                Time: 0.25s
+                Depth: 3
+                Nodes: 141521
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 1), (2, 3))
+                Time: 4.35s
+                Depth: 3
+                Nodes: 11375
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (4, 2))
+                Time: 4.86s
+                Depth: 3
+                Nodes: 13200
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 2), (2, 4))
+                Time: 3.01s
+                Depth: 3
+                Nodes: 26651
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (3, 5))
+                Time: 1.76s
+                Depth: 3
+                Nodes: 27639
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 6), (3, 3))
+                Time: 1.65s
+                Depth: 3
+                Nodes: 39364
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (5, 3))
+                Time: 1.80s
+                Depth: 3
+                Nodes: 41487
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 5), (3, 2))
+                Time: 1.67s
+                Depth: 3
+                Nodes: 52267
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (1, 1))
+                Time: 1.41s
+                Depth: 3
+                Nodes: 52355
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 4), (3, 4))
+                Time: 1.80s
+                Depth: 3
+                Nodes: 65965
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 7), (3, 4))
+                Time: 1.76s
+                Depth: 3
+                Nodes: 65616
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 3), (2, 5))
+                Time: 1.42s
+                Depth: 3
+                Nodes: 77759
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 6), (5, 4))
+                Time: 1.38s
+                Depth: 3
+                Nodes: 88770
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 1), (3, 3))
+                Time: 2.10s
+                Depth: 3
+                Nodes: 94487
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 1), (7, 6))
+                Time: 0.82s
+                Depth: 3
+                Nodes: 95943
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 0), (4, 4))
+                Time: 1.70s
+                Depth: 3
+                Nodes: 106944
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 2), (6, 5))
+                Time: 0.74s
+                Depth: 3
+                Nodes: 102458
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 0), (5, 2))
+                Time: 1.56s
+                Depth: 3
+                Nodes: 118374
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 6), (4, 3))
+                Time: 0.68s
+                Depth: 3
+                Nodes: 108476
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 0), (4, 0))
+                Time: 1.09s
+                Depth: 3
+                Nodes: 126253
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 2), (4, 5))
+                Time: 0.73s
+                Depth: 3
+                Nodes: 114674
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 0), (3, 1))
+                Time: 1.21s
+                Depth: 3
+                Nodes: 136005
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 5), (6, 3))
+                Time: 1.18s
+                Depth: 3
+                Nodes: 125034
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 3), (2, 6))
+                Time: 0.88s
+                Depth: 3
+                Nodes: 143300
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (4, 2))
+                Time: 3.95s
+                Depth: 3
+                Nodes: 9460
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 7), (6, 6))
+                Time: 3.37s
+                Depth: 3
+                Nodes: 20522
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 0), (5, 4))
+                Time: 5.36s
+                Depth: 3
+                Nodes: 33335
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (4, 3))
+                Time: 3.08s
+                Depth: 3
+                Nodes: 41609
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (6, 7))
+                Time: 5.58s
+                Depth: 3
+                Nodes: 60617
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (2, 3))
+                Time: 4.11s
+                Depth: 3
+                Nodes: 72361
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 3), (4, 1))
+                Time: 4.38s
+                Depth: 3
+                Nodes: 84331
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 0), (3, 1))
+                Time: 4.49s
+                Depth: 3
+                Nodes: 105691
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 7), (4, 5))
+                Time: 3.50s
+                Depth: 3
+                Nodes: 115269
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 1), (5, 3))
+                Time: 3.05s
+                Depth: 3
+                Nodes: 124500
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 6), (7, 0))
+                Time: 4.21s
+                Depth: 3
+                Nodes: 10641
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (7, 7))
+                Time: 3.71s
+                Depth: 3
+                Nodes: 10262
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 0), (6, 1))
+                Time: 1.58s
+                Depth: 3
+                Nodes: 20891
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 7), (1, 7))
+                Time: 1.50s
+                Depth: 3
+                Nodes: 22813
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 5), (7, 0))
+                Time: 1.50s
+                Depth: 3
+                Nodes: 33402
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (2, 1))
+                Time: 0.89s
+                Depth: 3
+                Nodes: 30820
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 6), (1, 6))
+                Time: 1.33s
+                Depth: 3
+                Nodes: 44416
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 7), (0, 7))
+                Time: 1.36s
+                Depth: 3
+                Nodes: 42305
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 4), (5, 2))
+                Time: 1.32s
+                Depth: 3
+                Nodes: 55574
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 1), (6, 1))
+                Time: 1.10s
+                Depth: 3
+                Nodes: 51932
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 2), (0, 7))
+                Time: 1.18s
+                Depth: 3
+                Nodes: 65817
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 1), (3, 1))
+                Time: 0.94s
+                Depth: 3
+                Nodes: 60673
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 1), (1, 2))
+                Time: 0.95s
+                Depth: 3
+                Nodes: 74369
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 0), (4, 1))
+                Time: 1.09s
+                Depth: 3
+                Nodes: 70819
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 6), (0, 6))
+                Time: 1.25s
+                Depth: 3
+                Nodes: 85861
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 1), (7, 1))
+                Time: 1.61s
+                Depth: 3
+                Nodes: 84857
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 3), (7, 7))
+                Time: 1.07s
+                Depth: 3
+                Nodes: 96115
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (6, 1))
+                Time: 1.19s
+                Depth: 3
+                Nodes: 95576
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 2), (7, 6))
+                Time: 0.69s
+                Depth: 3
+                Nodes: 102599
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (4, 2))
+                Time: 1.43s
+                Depth: 3
+                Nodes: 108832
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 7), (0, 1))
+                Time: 0.62s
+                Depth: 3
+                Nodes: 108795
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 7), (2, 6))
+                Time: 1.21s
+                Depth: 3
+                Nodes: 119467
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 3), (1, 3))
+                Time: 0.50s
+                Depth: 3
+                Nodes: 113747
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 7), (0, 7))
+                Time: 1.23s
+                Depth: 3
+                Nodes: 130576
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 6), (0, 0))
+                Time: 0.68s
+                Depth: 3
+                Nodes: 120375
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 2), (2, 0))
+                Time: 1.50s
+                Depth: 3
+                Nodes: 143915
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 6), (6, 7))
+                Time: 0.80s
+                Depth: 3
+                Nodes: 128167
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 1), (6, 0))
+                Time: 1.09s
+                Depth: 3
+                Nodes: 154120
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 3), (0, 3))
+                Time: 1.14s
+                Depth: 3
+                Nodes: 139157
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 0), (5, 1))
+                Time: 1.12s
+                Depth: 3
+                Nodes: 163992
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 7), (7, 6))
+                Time: 0.89s
+                Depth: 3
+                Nodes: 147944
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 1), (5, 0))
+                Time: 1.46s
+                Depth: 3
+                Nodes: 176690
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 1), (2, 3))
+                Time: 4.79s
+                Depth: 3
+                Nodes: 12040
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (4, 2))
+                Time: 4.62s
+                Depth: 3
+                Nodes: 13199
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 2), (2, 4))
+                Time: 2.09s
+                Depth: 3
+                Nodes: 26291
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (5, 3))
+                Time: 1.71s
+                Depth: 3
+                Nodes: 27011
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 6), (3, 3))
+                Time: 1.55s
+                Depth: 3
+                Nodes: 38821
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (4, 4))
+                Time: 1.42s
+                Depth: 3
+                Nodes: 38172
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 5), (3, 2))
+                Time: 1.88s
+                Depth: 3
+                Nodes: 53447
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (1, 1))
+                Time: 1.95s
+                Depth: 3
+                Nodes: 53095
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 6), (5, 4))
+                Time: 2.23s
+                Depth: 3
+                Nodes: 70642
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 1), (3, 1))
+                Time: 2.13s
+                Depth: 3
+                Nodes: 69592
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 2), (4, 5))
+                Time: 1.91s
+                Depth: 3
+                Nodes: 85457
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 0), (5, 4))
+                Time: 1.40s
+                Depth: 3
+                Nodes: 79923
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 1), (5, 1))
+                Time: 1.66s
+                Depth: 3
+                Nodes: 98593
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 0), (5, 2))
+                Time: 1.69s
+                Depth: 3
+                Nodes: 93022
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 3), (2, 5))
+                Time: 2.53s
+                Depth: 3
+                Nodes: 119373
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 7), (6, 6))
+                Time: 1.69s
+                Depth: 3
+                Nodes: 105912
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 5), (7, 2))
+                Time: 1.92s
+                Depth: 3
+                Nodes: 134314
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 7), (6, 5))
+                Time: 2.18s
+                Depth: 3
+                Nodes: 122202
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 3), (4, 1))
+                Time: 1.46s
+                Depth: 3
+                Nodes: 145745
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 7), (3, 5))
+                Time: 1.28s
+                Depth: 3
+                Nodes: 131780
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 2), (6, 1))
+                Time: 1.13s
+                Depth: 3
+                Nodes: 154637
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 7), (4, 7))
+                Time: 1.24s
+                Depth: 3
+                Nodes: 141011
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 1), (6, 4))
+                Time: 1.19s
+                Depth: 3
+                Nodes: 164306
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 7), (5, 7))
+                Time: 0.72s
+                Depth: 3
+                Nodes: 146503
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (4, 2))
+                Time: 4.16s
+                Depth: 3
+                Nodes: 10870
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 6), (5, 4))
+                Time: 2.61s
+                Depth: 3
+                Nodes: 26030
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 7), (4, 5))
+                Time: 2.30s
+                Depth: 3
+                Nodes: 26019
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 2), (3, 5))
+                Time: 2.88s
+                Depth: 3
+                Nodes: 45335
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 0), (4, 4))
+                Time: 2.30s
+                Depth: 3
+                Nodes: 41559
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 1), (2, 3))
+                Time: 1.58s
+                Depth: 3
+                Nodes: 55358
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 0), (5, 3))
+                Time: 1.92s
+                Depth: 3
+                Nodes: 54243
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 5), (4, 5))
+                Time: 1.81s
+                Depth: 3
+                Nodes: 66995
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (3, 2))
+                Time: 1.39s
+                Depth: 3
+                Nodes: 63677
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 3), (4, 3))
+                Time: 2.09s
+                Depth: 3
+                Nodes: 80530
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 0), (3, 4))
+                Time: 1.32s
+                Depth: 3
+                Nodes: 72696
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 1), (6, 1))
+                Time: 2.00s
+                Depth: 3
+                Nodes: 93078
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (6, 4))
+                Time: 1.13s
+                Depth: 3
+                Nodes: 80252
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 1), (3, 4))
+                Time: 2.21s
+                Depth: 3
+                Nodes: 107078
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 7), (5, 4))
+                Time: 0.99s
+                Depth: 3
+                Nodes: 87253
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 2), (4, 2))
+                Time: 1.90s
+                Depth: 3
+                Nodes: 119108
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (1, 6))
+                Time: 0.44s
+                Depth: 3
+                Nodes: 91122
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 4), (2, 6))
+                Time: 2.80s
+                Depth: 3
+                Nodes: 138415
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 6), (1, 5))
+                Time: 0.50s
+                Depth: 3
+                Nodes: 95308
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 6), (3, 6))
+                Time: 1.97s
+                Depth: 3
+                Nodes: 151533
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 7), (2, 4))
+                Time: 0.69s
+                Depth: 3
+                Nodes: 100768
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 3), (5, 6))
+                Time: 1.11s
+                Depth: 3
+                Nodes: 159282
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 5), (4, 2))
+                Time: 0.60s
+                Depth: 3
+                Nodes: 105739
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 5), (6, 5))
+                Time: 0.53s
+                Depth: 3
+                Nodes: 163687
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 6), (2, 4))
+                Time: 4.05s
+                Depth: 3
+                Nodes: 10266
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (4, 2))
+                Time: 4.35s
+                Depth: 3
+                Nodes: 10870
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 6), (5, 4))
+                Time: 2.92s
+                Depth: 3
+                Nodes: 26030
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 7), (4, 5))
+                Time: 2.14s
+                Depth: 3
+                Nodes: 26019
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 2), (3, 5))
+                Time: 2.73s
+                Depth: 3
+                Nodes: 45335
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 0), (4, 4))
+                Time: 2.29s
+                Depth: 3
+                Nodes: 41559
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 1), (2, 3))
+                Time: 1.56s
+                Depth: 3
+                Nodes: 55358
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 0), (5, 3))
+                Time: 1.94s
+                Depth: 3
+                Nodes: 54243
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 5), (4, 5))
+                Time: 1.82s
+                Depth: 3
+                Nodes: 66995
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (3, 2))
+                Time: 1.42s
+                Depth: 3
+                Nodes: 63677
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 3), (4, 3))
+                Time: 2.07s
+                Depth: 3
+                Nodes: 80530
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 0), (3, 4))
+                Time: 1.36s
+                Depth: 3
+                Nodes: 72696
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 1), (6, 1))
+                Time: 1.87s
+                Depth: 3
+                Nodes: 93078
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (6, 4))
+                Time: 1.12s
+                Depth: 3
+                Nodes: 80252
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 1), (3, 4))
+                Time: 2.21s
+                Depth: 3
+                Nodes: 107078
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 7), (5, 4))
+                Time: 0.97s
+                Depth: 3
+                Nodes: 87253
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 6), (2, 4))
+                Time: 4.06s
+                Depth: 3
+                Nodes: 10266
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (4, 2))
+                Time: 4.50s
+                Depth: 3
+                Nodes: 10870
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 6), (5, 4))
+                Time: 3.23s
+                Depth: 3
+                Nodes: 26030
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 7), (4, 5))
+                Time: 2.17s
+                Depth: 3
+                Nodes: 26019
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 2), (3, 5))
+                Time: 2.74s
+                Depth: 3
+                Nodes: 45335
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 0), (4, 4))
+                Time: 2.32s
+                Depth: 3
+                Nodes: 41559
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 1), (2, 3))
+                Time: 1.51s
+                Depth: 3
+                Nodes: 55358
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 0), (5, 3))
+                Time: 1.94s
+                Depth: 3
+                Nodes: 54243
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 5), (4, 5))
+                Time: 1.83s
+                Depth: 3
+                Nodes: 66995
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (3, 2))
+                Time: 1.40s
+                Depth: 3
+                Nodes: 63677
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 3), (4, 3))
+                Time: 2.04s
+                Depth: 3
+                Nodes: 80530
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 0), (3, 4))
+                Time: 1.37s
+                Depth: 3
+                Nodes: 72696
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 1), (6, 1))
+                Time: 1.95s
+                Depth: 3
+                Nodes: 93078
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (6, 4))
+                Time: 1.11s
+                Depth: 3
+                Nodes: 80252
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 1), (3, 4))
+                Time: 2.20s
+                Depth: 3
+                Nodes: 107078
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 7), (5, 4))
+                Time: 0.94s
+                Depth: 3
+                Nodes: 87253
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 2), (4, 2))
+                Time: 1.79s
+                Depth: 3
+                Nodes: 119108
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (1, 6))
+                Time: 0.45s
+                Depth: 3
+                Nodes: 91122
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 4), (2, 6))
+                Time: 2.67s
+                Depth: 3
+                Nodes: 138415
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 6), (1, 5))
+                Time: 0.48s
+                Depth: 3
+                Nodes: 95308
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 6), (3, 6))
+                Time: 1.93s
+                Depth: 3
+                Nodes: 151533
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 7), (2, 4))
+                Time: 0.66s
+                Depth: 3
+                Nodes: 100768
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 3), (5, 6))
+                Time: 1.05s
+                Depth: 3
+                Nodes: 159282
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 5), (4, 2))
+                Time: 0.56s
+                Depth: 3
+                Nodes: 105739
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 5), (6, 5))
+                Time: 0.47s
+                Depth: 3
+                Nodes: 163687
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 1), (0, 7))
+                Time: 2.88s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (4, 2))
+                Time: 3.93s
+                Depth: 3
+                Nodes: 9531
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 2), (3, 2))
+                Time: 2.84s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (3, 5))
+                Time: 2.87s
+                Depth: 3
+                Nodes: 22130
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 7), (0, 2))
+                Time: 2.48s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 2), (4, 5))
+                Time: 2.48s
+                Depth: 3
+                Nodes: 38874
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 6), (0, 1))
+                Time: 2.07s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 5), (0, 0))
+                Time: 2.10s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 7), (5, 4))
+                Time: 3.33s
+                Depth: 3
+                Nodes: 81752
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 1), (5, 3))
+                Time: 1.72s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 7), (4, 4))
+                Time: 3.15s
+                Depth: 3
+                Nodes: 102746
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 2), (7, 7))
+                Time: 1.70s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 7), (2, 4))
+                Time: 2.64s
+                Depth: 3
+                Nodes: 119740
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 7), (4, 4))
+                Time: 2.43s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 7), (5, 5))
+                Time: 1.84s
+                Depth: 3
+                Nodes: 132228
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 6), (7, 2))
+                Time: 1.14s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 0), (4, 3))
+                Time: 1.26s
+                Depth: 3
+                Nodes: 140357
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 0), (4, 1))
+                Time: 1.77s
+                Depth: 3
+                Nodes: 151773
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 3), (4, 3))
+                Time: 0.98s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (4, 3))
+                Time: 1.16s
+                Depth: 3
+                Nodes: 159594
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 3), (4, 3))
+                Time: 0.97s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (5, 3))
+                Time: 1.16s
+                Depth: 3
+                Nodes: 168379
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 5), (5, 3))
+                Time: 0.78s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 0), (3, 3))
+                Time: 1.04s
+                Depth: 3
+                Nodes: 177542
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 4), (1, 5))
+                Time: 0.38s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 5), (3, 2))
+                Time: 0.32s
+                Depth: 3
+                Nodes: 180435
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (4, 2))
+                Time: 4.08s
+                Depth: 3
+                Nodes: 10160
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (3, 2))
+                Time: 3.45s
+                Depth: 3
+                Nodes: 21009
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (2, 3))
+                Time: 2.00s
+                Depth: 3
+                Nodes: 32063
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 0), (4, 1))
+                Time: 2.91s
+                Depth: 3
+                Nodes: 39420
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 0), (4, 5))
+                Time: 3.62s
+                Depth: 3
+                Nodes: 48925
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 0), (5, 3))
+                Time: 2.08s
+                Depth: 3
+                Nodes: 54786
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 7), (7, 6))
+                Time: 2.69s
+                Depth: 3
+                Nodes: 62528
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 6), (5, 4))
+                Time: 3.07s
+                Depth: 3
+                Nodes: 70075
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 3), (2, 6))
+                Time: 1.94s
+                Depth: 3
+                Nodes: 74826
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 4), (6, 4))
+                Time: 2.21s
+                Depth: 3
+                Nodes: 81271
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 4), (4, 4))
+                Time: 1.88s
+                Depth: 3
+                Nodes: 86618
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 2), (4, 3))
+                Time: 2.28s
+                Depth: 3
+                Nodes: 93720
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (1, 6))
+                Time: 1.44s
+                Depth: 3
+                Nodes: 98254
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 3), (5, 4))
+                Time: 3.00s
+                Depth: 3
+                Nodes: 107472
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 3), (3, 3))
+                Time: 1.50s
+                Depth: 3
+                Nodes: 112365
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 6), (2, 4))
+                Time: 4.73s
+                Depth: 3
+                Nodes: 11514
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (4, 2))
+                Time: 4.38s
+                Depth: 3
+                Nodes: 13805
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 1), (2, 3))
+                Time: 2.44s
+                Depth: 3
+                Nodes: 26427
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 7), (4, 5))
+                Time: 2.05s
+                Depth: 3
+                Nodes: 28142
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 2), (3, 5))
+                Time: 2.55s
+                Depth: 3
+                Nodes: 43419
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (5, 3))
+                Time: 2.58s
+                Depth: 3
+                Nodes: 45126
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 5), (4, 5))
+                Time: 2.61s
+                Depth: 3
+                Nodes: 60925
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (3, 2))
+                Time: 1.26s
+                Depth: 3
+                Nodes: 53595
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 4), (3, 4))
+                Time: 2.05s
+                Depth: 3
+                Nodes: 74488
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 0), (4, 4))
+                Time: 1.68s
+                Depth: 3
+                Nodes: 64243
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 3), (4, 3))
+                Time: 1.74s
+                Depth: 3
+                Nodes: 85488
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 0), (5, 2))
+                Time: 1.46s
+                Depth: 3
+                Nodes: 73658
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 1), (6, 1))
+                Time: 1.73s
+                Depth: 3
+                Nodes: 95864
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 0), (5, 4))
+                Time: 1.27s
+                Depth: 3
+                Nodes: 81736
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 6), (6, 6))
+                Time: 2.11s
+                Depth: 3
+                Nodes: 109105
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (0, 6))
+                Time: 1.28s
+                Depth: 3
+                Nodes: 89824
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 3), (5, 6))
+                Time: 1.45s
+                Depth: 3
+                Nodes: 117725
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 6), (2, 4))
+                Time: 4.66s
+                Depth: 3
+                Nodes: 11514
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (4, 2))
+                Time: 5.09s
+                Depth: 3
+                Nodes: 13805
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 1), (2, 3))
+                Time: 2.94s
+                Depth: 3
+                Nodes: 26427
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 7), (4, 5))
+                Time: 2.18s
+                Depth: 3
+                Nodes: 28142
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 2), (3, 5))
+                Time: 2.49s
+                Depth: 3
+                Nodes: 43419
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (5, 3))
+                Time: 2.47s
+                Depth: 3
+                Nodes: 45126
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 5), (4, 5))
+                Time: 2.69s
+                Depth: 3
+                Nodes: 60925
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (3, 2))
+                Time: 1.30s
+                Depth: 3
+                Nodes: 53595
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 4), (3, 4))
+                Time: 2.19s
+                Depth: 3
+                Nodes: 74488
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 0), (4, 4))
+                Time: 1.65s
+                Depth: 3
+                Nodes: 64243
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 3), (4, 3))
+                Time: 1.72s
+                Depth: 3
+                Nodes: 85488
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 0), (5, 2))
+                Time: 1.40s
+                Depth: 3
+                Nodes: 73658
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 1), (6, 1))
+                Time: 1.75s
+                Depth: 3
+                Nodes: 95864
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 0), (5, 4))
+                Time: 1.32s
+                Depth: 3
+                Nodes: 81736
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (0, 6))
+                Time: 1.30s
+                Depth: 3
+                Nodes: 89824
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 3), (5, 6))
+                Time: 1.52s
+                Depth: 3
+                Nodes: 117725
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (3, 2))
+                Time: 4.43s
+                Depth: 3
+                Nodes: 13406
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 3), (5, 3))
+                Time: 2.81s
+                Depth: 3
+                Nodes: 30406
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (4, 4))
+                Time: 2.90s
+                Depth: 3
+                Nodes: 32066
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 1), (4, 4))
+                Time: 2.98s
+                Depth: 3
+                Nodes: 50215
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (4, 2))
+                Time: 2.33s
+                Depth: 3
+                Nodes: 48748
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 2), (2, 4))
+                Time: 2.06s
+                Depth: 3
+                Nodes: 63572
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 7), (4, 5))
+                Time: 2.70s
+                Depth: 3
+                Nodes: 68534
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 6), (5, 4))
+                Time: 3.27s
+                Depth: 3
+                Nodes: 85477
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 2), (3, 5))
+                Time: 1.96s
+                Depth: 3
+                Nodes: 82006
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 6), (3, 3))
+                Time: 1.72s
+                Depth: 3
+                Nodes: 96191
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (2, 2))
+                Time: 1.76s
+                Depth: 3
+                Nodes: 93747
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 3), (4, 3))
+                Time: 2.03s
+                Depth: 3
+                Nodes: 108750
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 2), (5, 2))
+                Time: 1.88s
+                Depth: 3
+                Nodes: 106680
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 4), (2, 2))
+                Time: 2.22s
+                Depth: 3
+                Nodes: 122546
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 0), (3, 2))
+                Time: 1.46s
+                Depth: 3
+                Nodes: 116313
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 2), (5, 5))
+                Time: 2.60s
+                Depth: 3
+                Nodes: 138604
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 0), (6, 3))
+                Time: 0.96s
+                Depth: 3
+                Nodes: 122567
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 4), (6, 4))
+                Time: 1.68s
+                Depth: 3
+                Nodes: 148481
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 0), (3, 1))
+                Time: 0.99s
+                Depth: 3
+                Nodes: 129109
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 5), (2, 3))
+                Time: 0.90s
+                Depth: 3
+                Nodes: 154071
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 1), (2, 3))
+                Time: 5.74s
+                Depth: 3
+                Nodes: 14289
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (3, 2))
+                Time: 5.42s
+                Depth: 3
+                Nodes: 14275
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 1), (5, 3))
+                Time: 3.53s
+                Depth: 3
+                Nodes: 32941
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 2), (3, 5))
+                Time: 3.23s
+                Depth: 3
+                Nodes: 37294
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 6), (2, 4))
+                Time: 3.15s
+                Depth: 3
+                Nodes: 54501
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (1, 6))
+                Time: 2.91s
+                Depth: 3
+                Nodes: 57449
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 6), (6, 5))
+                Time: 3.66s
+                Depth: 3
+                Nodes: 79909
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 7), (4, 5))
+                Time: 3.16s
+                Depth: 3
+                Nodes: 79296
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 3), (6, 3))
+                Time: 3.04s
+                Depth: 3
+                Nodes: 99876
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 6), (2, 6))
+                Time: 3.13s
+                Depth: 3
+                Nodes: 100528
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 4), (5, 4))
+                Time: 2.61s
+                Depth: 3
+                Nodes: 116830
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (5, 1))
+                Time: 2.79s
+                Depth: 3
+                Nodes: 119537
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 3), (4, 3))
+                Time: 1.89s
+                Depth: 3
+                Nodes: 128966
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 1), (4, 1))
+                Time: 3.06s
+                Depth: 3
+                Nodes: 140360
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 2), (3, 5))
+                Time: 2.05s
+                Depth: 3
+                Nodes: 141912
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 6), (3, 6))
+                Time: 1.72s
+                Depth: 3
+                Nodes: 151949
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 4), (3, 4))
+                Time: 2.57s
+                Depth: 3
+                Nodes: 158295
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 7), (3, 4))
+                Time: 1.50s
+                Depth: 3
+                Nodes: 162486
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 5), (0, 4))
+                Time: 1.36s
+                Depth: 3
+                Nodes: 166960
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 0), (3, 2))
+                Time: 2.19s
+                Depth: 3
+                Nodes: 177446
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 4), (2, 6))
+                Time: 1.51s
+                Depth: 3
+                Nodes: 176931
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (2, 2))
+                Time: 2.40s
+                Depth: 3
+                Nodes: 193924
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 4), (4, 4))
+                Time: 0.85s
+                Depth: 3
+                Nodes: 182548
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (7, 0))
+                Time: 5.00s
+                Depth: 3
+                Nodes: 12768
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 1), (3, 1))
+                Time: 4.63s
+                Depth: 3
+                Nodes: 37130
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (5, 1))
+                Time: 2.42s
+                Depth: 3
+                Nodes: 47161
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (4, 2))
+                Time: 1.44s
+                Depth: 3
+                Nodes: 52863
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 0), (4, 1))
+                Time: 2.30s
+                Depth: 3
+                Nodes: 59654
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (0, 6))
+                Time: 3.25s
+                Depth: 3
+                Nodes: 68757
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 0), (3, 2))
+                Time: 2.69s
+                Depth: 3
+                Nodes: 76685
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 7), (6, 6))
+                Time: 1.92s
+                Depth: 3
+                Nodes: 91164
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 2), (4, 3))
+                Time: 2.25s
+                Depth: 3
+                Nodes: 97534
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 3), (2, 3))
+                Time: 5.76s
+                Depth: 3
+                Nodes: 14625
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 0), (3, 2))
+                Time: 4.38s
+                Depth: 3
+                Nodes: 13751
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 3), (5, 3))
+                Time: 2.60s
+                Depth: 3
+                Nodes: 30821
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 7), (3, 5))
+                Time: 2.36s
+                Depth: 3
+                Nodes: 30099
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 6), (2, 4))
+                Time: 2.49s
+                Depth: 3
+                Nodes: 47650
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (4, 2))
+                Time: 2.26s
+                Depth: 3
+                Nodes: 44756
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 6), (4, 3))
+                Time: 1.98s
+                Depth: 3
+                Nodes: 60700
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 7), (3, 4))
+                Time: 1.85s
+                Depth: 3
+                Nodes: 56575
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 5), (4, 5))
+                Time: 1.46s
+                Depth: 3
+                Nodes: 69698
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 7), (5, 4))
+                Time: 1.34s
+                Depth: 3
+                Nodes: 64318
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 1), (2, 1))
+                Time: 1.03s
+                Depth: 3
+                Nodes: 75895
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (1, 2))
+                Time: 1.31s
+                Depth: 3
+                Nodes: 71865
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 1), (4, 1))
+                Time: 1.15s
+                Depth: 3
+                Nodes: 82923
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (1, 5))
+                Time: 1.18s
+                Depth: 3
+                Nodes: 79160
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 1), (5, 1))
+                Time: 0.80s
+                Depth: 3
+                Nodes: 87839
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 2), (1, 4))
+                Time: 0.80s
+                Depth: 3
+                Nodes: 84354
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 1), (3, 1))
+                Time: 1.15s
+                Depth: 3
+                Nodes: 94649
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 7), (6, 5))
+                Time: 1.39s
+                Depth: 3
+                Nodes: 92661
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 1), (5, 1))
+                Time: 0.95s
+                Depth: 3
+                Nodes: 100552
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 5), (3, 7))
+                Time: 1.35s
+                Depth: 3
+                Nodes: 100684
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 1), (3, 1))
+                Time: 1.18s
+                Depth: 3
+                Nodes: 107486
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 0), (7, 2))
+                Time: 1.35s
+                Depth: 3
+                Nodes: 108769
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 4), (2, 6))
+                Time: 0.88s
+                Depth: 3
+                Nodes: 113374
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 5), (6, 4))
+                Time: 0.90s
+                Depth: 3
+                Nodes: 114641
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 2), (0, 4))
+                Time: 0.87s
+                Depth: 3
+                Nodes: 119677
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 7), (4, 7))
+                Time: 1.21s
+                Depth: 3
+                Nodes: 122476
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 6), (3, 6))
+                Time: 1.51s
+                Depth: 3
+                Nodes: 129263
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (1, 1))
+                Time: 1.32s
+                Depth: 3
+                Nodes: 130598
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 6), (4, 6))
+                Time: 1.53s
+                Depth: 3
+                Nodes: 139055
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 1), (1, 3))
+                Time: 2.54s
+                Depth: 3
+                Nodes: 147718
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 3), (2, 5))
+                Time: 1.41s
+                Depth: 3
+                Nodes: 147998
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 3), (1, 5))
+                Time: 1.45s
+                Depth: 3
+                Nodes: 156608
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 4), (2, 6))
+                Time: 1.51s
+                Depth: 3
+                Nodes: 157879
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 0), (3, 0))
+                Time: 1.55s
+                Depth: 3
+                Nodes: 165574
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 6), (2, 4))
+                Time: 1.21s
+                Depth: 3
+                Nodes: 165282
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 0), (4, 0))
+                Time: 1.36s
+                Depth: 3
+                Nodes: 173757
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 4), (2, 6))
+                Time: 1.55s
+                Depth: 3
+                Nodes: 175054
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 4), (6, 5))
+                Time: 1.56s
+                Depth: 3
+                Nodes: 183035
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 6), (2, 4))
+                Time: 1.08s
+                Depth: 3
+                Nodes: 181972
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 5), (6, 4))
+                Time: 1.30s
+                Depth: 3
+                Nodes: 190727
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 4), (2, 6))
+                Time: 1.49s
+                Depth: 3
+                Nodes: 191744
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 7), (6, 7))
+                Time: 1.54s
+                Depth: 3
+                Nodes: 200035
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 6), (2, 4))
+                Time: 1.00s
+                Depth: 3
+                Nodes: 198294
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 2), (6, 1))
+                Time: 1.42s
+                Depth: 3
+                Nodes: 208758
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 5), (0, 3))
+                Time: 1.33s
+                Depth: 3
+                Nodes: 205161
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 7), (4, 7))
+                Time: 1.19s
+                Depth: 3
+                Nodes: 215537
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 0), (3, 2))
+                Time: 5.29s
+                Depth: 3
+                Nodes: 12813
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 7), (3, 5))
+                Time: 3.43s
+                Depth: 3
+                Nodes: 25522
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (4, 3))
+                Time: 4.14s
+                Depth: 3
+                Nodes: 36624
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (4, 2))
+                Time: 3.62s
+                Depth: 3
+                Nodes: 48049
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 0), (4, 5))
+                Time: 1.90s
+                Depth: 3
+                Nodes: 55776
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 2), (1, 4))
+                Time: 2.86s
+                Depth: 3
+                Nodes: 63968
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (6, 2))
+                Time: 2.77s
+                Depth: 3
+                Nodes: 71589
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 3), (5, 4))
+                Time: 1.80s
+                Depth: 3
+                Nodes: 77686
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 0), (4, 0))
+                Time: 1.13s
+                Depth: 3
+                Nodes: 81325
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (0, 6))
+                Time: 1.62s
+                Depth: 3
+                Nodes: 86214
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 4), (3, 4))
+                Time: 1.77s
+                Depth: 3
+                Nodes: 91362
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 6), (0, 4))
+                Time: 1.24s
+                Depth: 3
+                Nodes: 95275
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 0), (3, 0))
+                Time: 1.23s
+                Depth: 3
+                Nodes: 98928
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 4), (2, 6))
+                Time: 1.52s
+                Depth: 3
+                Nodes: 103687
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 2), (7, 3))
+                Time: 1.64s
+                Depth: 3
+                Nodes: 108753
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 0), (4, 0))
+                Time: 0.88s
+                Depth: 3
+                Nodes: 112075
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 6), (1, 5))
+                Time: 1.61s
+                Depth: 3
+                Nodes: 116975
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((4, 0), (3, 0))
+                Time: 2.35s
+                Depth: 3
+                Nodes: 124318
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 4), (5, 2))
+                Time: 1.84s
+                Depth: 3
+                Nodes: 130733
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 1), (2, 3))
+                Time: 5.86s
+                Depth: 3
+                Nodes: 14591
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (7, 0))
+                Time: 5.32s
+                Depth: 3
+                Nodes: 13873
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 1), (5, 3))
+                Time: 3.06s
+                Depth: 3
+                Nodes: 31801
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 0), (1, 0))
+                Time: 2.15s
+                Depth: 3
+                Nodes: 28843
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 6), (2, 4))
+                Time: 4.32s
+                Depth: 3
+                Nodes: 61949
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (7, 7))
+                Time: 2.53s
+                Depth: 3
+                Nodes: 46474
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 5), (3, 2))
+                Time: 4.55s
+                Depth: 3
+                Nodes: 94005
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (7, 0))
+                Time: 1.80s
+                Depth: 3
+                Nodes: 58562
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 2), (5, 4))
+                Time: 3.97s
+                Depth: 3
+                Nodes: 120846
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 7), (6, 6))
+                Time: 1.36s
+                Depth: 3
+                Nodes: 67420
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((0, 3), (4, 3))
+                Time: 3.87s
+                Depth: 3
+                Nodes: 146141
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 6), (4, 6))
+                Time: 1.99s
+                Depth: 3
+                Nodes: 80612
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((7, 5), (6, 5))
+                Time: 3.74s
+                Depth: 3
+                Nodes: 170669
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 7), (4, 5))
+                Time: 1.57s
+                Depth: 3
+                Nodes: 90411
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 3), (1, 3))
+                Time: 2.90s
+                Depth: 3
+                Nodes: 188929
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (5, 4))
+                Time: 0.86s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (7, 6))
+                Time: 0.59s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 4), (2, 7))
+                Time: 0.59s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (6, 7))
+                Time: 0.47s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (4, 5))
+                Time: 0.44s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (7, 6))
+                Time: 0.44s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 5), (2, 7))
+                Time: 0.39s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (6, 7))
+                Time: 0.34s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (4, 5))
+                Time: 0.31s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (7, 6))
+                Time: 0.30s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 5), (2, 7))
+                Time: 0.28s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (6, 7))
+                Time: 0.28s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (4, 5))
+                Time: 0.29s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (7, 6))
+                Time: 0.27s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 5), (2, 7))
+                Time: 0.26s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (6, 7))
+                Time: 0.25s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (4, 5))
+                Time: 0.27s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (7, 6))
+                Time: 0.28s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 5), (2, 7))
+                Time: 0.26s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (6, 7))
+                Time: 0.26s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (4, 5))
+                Time: 0.28s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (7, 6))
+                Time: 0.29s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 5), (2, 7))
+                Time: 0.27s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (6, 7))
+                Time: 0.25s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (4, 5))
+                Time: 0.25s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (7, 6))
+                Time: 0.26s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 5), (2, 7))
+                Time: 0.27s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (6, 7))
+                Time: 0.25s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (4, 5))
+                Time: 0.27s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (7, 6))
+                Time: 0.28s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 5), (2, 7))
+                Time: 0.27s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (6, 7))
+                Time: 0.27s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (4, 5))
+                Time: 0.26s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (7, 6))
+                Time: 0.27s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 5), (2, 7))
+                Time: 0.26s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (6, 7))
+                Time: 0.25s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (4, 5))
+                Time: 0.26s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (7, 6))
+                Time: 0.27s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 5), (2, 7))
+                Time: 0.27s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (6, 7))
+                Time: 0.26s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (4, 5))
+                Time: 0.26s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (7, 6))
+                Time: 0.29s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 5), (2, 7))
+                Time: 0.29s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (6, 7))
+                Time: 0.25s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (4, 5))
+                Time: 0.28s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (7, 6))
+                Time: 0.26s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 5), (2, 7))
+                Time: 0.30s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 4), (5, 6))
+                Time: 1.68s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 7), (7, 5))
+                Time: 1.08s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (4, 6))
+                Time: 0.88s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (2, 5))
+                Time: 0.73s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 6), (4, 3))
+                Time: 0.66s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 5), (0, 7))
+                Time: 0.63s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 6), (7, 4))
+                Time: 0.56s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 5), (6, 6))
+                Time: 0.53s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 3), (4, 6))
+                Time: 0.55s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 6), (7, 7))
+                Time: 0.53s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 6), (4, 3))
+                Time: 0.54s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 7), (6, 6))
+                Time: 0.56s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 3), (2, 5))
+                Time: 0.56s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 0), (7, 2))
+                Time: 0.55s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 5), (1, 6))
+                Time: 0.54s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 2), (6, 3))
+                Time: 0.55s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 6), (2, 7))
+                Time: 0.57s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 6), (5, 5))
+                Time: 0.52s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 3), (2, 1))
+                Time: 0.55s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 5), (5, 6))
+                Time: 0.53s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 3), (4, 3))
+                Time: 0.54s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (2, 4))
+                Time: 0.54s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 3), (2, 5))
+                Time: 0.51s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 4), (4, 6))
+                Time: 0.51s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 5), (2, 2))
+                Time: 0.50s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 1), (3, 1))
+                Time: 0.54s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 2), (1, 1))
+                Time: 0.56s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 4), (0, 0))
+                Time: 0.57s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 0), (0, 0))
+                Time: 0.53s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 6), (1, 6))
+                Time: 0.52s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 3), (2, 5))
+                Time: 6.95s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 7), (3, 5))
+                Time: 5.53s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 5), (1, 6))
+                Time: 5.83s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 0), (3, 2))
+                Time: 6.20s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 2), (3, 5))
+                Time: 6.06s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 0), (5, 2))
+                Time: 5.99s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 2), (5, 0))
+                Time: 6.24s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 2), (3, 4))
+                Time: 6.07s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 4), (2, 2))
+                Time: 5.77s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (5, 4))
+                Time: 1.14s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (7, 6))
+                Time: 0.67s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 4), (2, 7))
+                Time: 0.58s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (6, 7))
+                Time: 0.55s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (4, 5))
+                Time: 0.55s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (7, 6))
+                Time: 0.58s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 5), (2, 7))
+                Time: 0.56s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (6, 7))
+                Time: 0.55s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (7, 6))
+                Time: 0.57s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 5), (2, 7))
+                Time: 0.58s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (6, 7))
+                Time: 0.54s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (7, 6))
+                Time: 0.61s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (5, 4))
+                Time: 2.46s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (7, 6))
+                Time: 1.24s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 4), (2, 7))
+                Time: 1.16s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (6, 7))
+                Time: 1.13s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (4, 5))
+                Time: 1.14s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (7, 6))
+                Time: 1.16s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 5), (2, 7))
+                Time: 1.13s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (6, 7))
+                Time: 1.12s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (4, 5))
+                Time: 1.10s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (7, 6))
+                Time: 1.19s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 5), (2, 7))
+                Time: 1.21s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (5, 4))
+                Time: 15.13s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (7, 6))
+                Time: 15.53s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 4), (2, 7))
+                Time: 15.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (6, 7))
+                Time: 13.97s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (4, 5))
+                Time: 14.81s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 1), (0, 7))
+                Time: 10.57s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 0), (0, 2))
+                Time: 10.33s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 5), (5, 5))
+                Time: 10.51s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 0), (4, 2))
+                Time: 10.31s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 4), (5, 6))
+                Time: 10.22s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 0), (4, 1))
+                Time: 11.63s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 5), (3, 2))
+                Time: 13.31s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 0), (7, 2))
+                Time: 13.00s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (5, 4))
+                Time: 0.92s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (7, 6))
+                Time: 0.83s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 4), (2, 7))
+                Time: 0.80s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (6, 7))
+                Time: 0.45s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (4, 5))
+                Time: 0.35s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (7, 6))
+                Time: 0.35s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 5), (2, 7))
+                Time: 0.32s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (6, 7))
+                Time: 0.27s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (4, 5))
+                Time: 0.28s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (7, 6))
+                Time: 0.32s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 5), (2, 7))
+                Time: 0.34s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (6, 7))
+                Time: 0.30s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (4, 5))
+                Time: 0.30s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (7, 6))
+                Time: 0.33s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (7, 0))
+                Time: 1.77s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 7), (5, 5))
+                Time: 1.15s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 2), (5, 0))
+                Time: 1.18s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 5), (5, 3))
+                Time: 1.14s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 5), (6, 6))
+                Time: 1.23s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 0), (6, 3))
+                Time: 1.13s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 6), (5, 7))
+                Time: 1.27s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 7), (2, 5))
+                Time: 1.22s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 4), (2, 6))
+                Time: 1.14s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 3), (6, 5))
+                Time: 1.08s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 0), (5, 2))
+                Time: 1.11s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 0), (3, 2))
+                Time: 1.20s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 6), (4, 6))
+                Time: 1.33s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 6), (4, 4))
+                Time: 1.09s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 5), (5, 4))
+                Time: 1.05s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 4), (3, 3))
+                Time: 1.15s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 4), (7, 2))
+                Time: 1.29s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 0), (3, 2))
+                Time: 1.10s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (7, 6))
+                Time: 1.20s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 2), (1, 0))
+                Time: 1.13s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 2), (6, 1))
+                Time: 1.06s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 0), (3, 2))
+                Time: 1.19s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 1), (6, 0))
+                Time: 1.06s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 2), (3, 6))
+                Time: 1.01s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 5), (2, 2))
+                Time: 1.26s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 2), (2, 0))
+                Time: 1.20s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 5), (1, 4))
+                Time: 1.14s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 1), (7, 5))
+                Time: 1.11s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 4), (1, 2))
+                Time: 1.10s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 4), (6, 5))
+                Time: 1.09s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 7), (5, 5))
+                Time: 1.09s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 5), (7, 4))
+                Time: 1.11s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 3), (3, 0))
+                Time: 1.16s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 5), (3, 3))
+                Time: 1.20s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 1), (0, 4))
+                Time: 1.20s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 3), (0, 6))
+                Time: 1.12s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 4), (2, 4))
+                Time: 1.12s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 2), (0, 4))
+                Time: 1.14s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 4), (4, 1))
+                Time: 0.99s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 4), (2, 2))
+                Time: 0.94s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 6), (3, 4))
+                Time: 1.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 0), (6, 2))
+                Time: 0.95s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 4), (1, 6))
+                Time: 1.12s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 2), (2, 3))
+                Time: 1.09s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 4), (5, 1))
+                Time: 1.07s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 3), (2, 0))
+                Time: 1.01s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 1), (7, 1))
+                Time: 1.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 2), (3, 3))
+                Time: 1.06s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 1), (4, 2))
+                Time: 1.18s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 3), (2, 2))
+                Time: 1.06s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 7), (4, 6))
+                Time: 1.11s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 3), (3, 2))
+                Time: 1.12s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 6), (3, 4))
+                Time: 1.08s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 2), (2, 3))
+                Time: 1.14s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 4), (3, 6))
+                Time: 1.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 2), (3, 3))
+                Time: 1.14s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 1), (6, 1))
+                Time: 1.08s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 5), (6, 1))
+                Time: 1.09s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 0), (6, 0))
+                Time: 0.99s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 3), (1, 2))
+                Time: 0.97s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 0), (4, 0))
+                Time: 0.92s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 2), (1, 0))
+                Time: 0.94s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (2, 5))
+                Time: 0.88s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 2), (4, 1))
+                Time: 0.91s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 6), (0, 4))
+                Time: 0.93s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 1), (3, 0))
+                Time: 0.92s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 3), (1, 5))
+                Time: 0.92s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 2), (2, 2))
+                Time: 0.91s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 0), (2, 1))
+                Time: 0.87s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 5), (5, 7))
+                Time: 0.89s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (5, 4))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (4, 5))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 1), (5, 3))
+                Time: 0.05s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 7), (3, 5))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 7), (3, 4))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 3), (4, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 4), (3, 1))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 3), (1, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 5), (3, 2))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 3), (2, 3))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 0), (4, 3))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 1), (3, 4))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 7), (5, 4))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 5), (4, 5))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 0), (4, 2))
+                Time: 0.05s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 0), (3, 4))
+                Time: 0.05s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 2), (3, 5))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 7), (2, 5))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 3), (4, 3))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 2), (4, 2))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (5, 4))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (4, 5))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 1), (5, 3))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 7), (3, 5))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 4), (4, 4))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 7), (3, 4))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 3), (4, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 4), (3, 1))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 3), (1, 3))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 5), (3, 2))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 3), (2, 3))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 0), (4, 3))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 1), (3, 4))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 7), (5, 4))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 5), (4, 5))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 0), (4, 2))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 6), (2, 4))
+                Time: 0.05s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 0), (3, 4))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 2), (3, 5))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 7), (2, 5))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 3), (4, 3))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 0), (5, 3))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 2), (4, 2))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (4, 5))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 5), (0, 1))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 1), (2, 1))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 0), (3, 2))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 0), (2, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 1), (4, 1))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 0), (3, 4))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 0), (4, 5))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 3), (4, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (6, 5))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 0), (5, 1))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 1), (4, 2))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 0), (5, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 5), (6, 4))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 3), (5, 6))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 4), (4, 4))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 7), (1, 6))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 6), (1, 5))
+                Time: 0.05s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 5), (3, 3))
+                Time: 0.05s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (4, 5))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 5), (4, 1))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 7), (3, 5))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 5), (3, 1))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (6, 5))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 0), (3, 2))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 5), (4, 3))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 0), (4, 2))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 0), (5, 2))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 0), (3, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 0), (2, 3))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 2), (2, 4))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 1), (5, 3))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 3), (4, 4))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 2), (3, 4))
+                Time: 0.05s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 3), (4, 3))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (5, 4))
+                Time: 0.27s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (4, 5))
+                Time: 0.29s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 1), (5, 3))
+                Time: 0.29s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 7), (3, 5))
+                Time: 0.28s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 4), (4, 4))
+                Time: 0.28s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 7), (3, 4))
+                Time: 0.28s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 3), (4, 3))
+                Time: 0.28s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 4), (3, 1))
+                Time: 0.30s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 3), (1, 3))
+                Time: 0.33s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 5), (3, 2))
+                Time: 0.33s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 3), (2, 3))
+                Time: 0.36s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 0), (4, 3))
+                Time: 0.35s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 1), (3, 4))
+                Time: 0.39s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 7), (5, 4))
+                Time: 0.38s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 5), (4, 5))
+                Time: 0.39s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 0), (4, 2))
+                Time: 0.41s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 6), (2, 4))
+                Time: 0.42s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 0), (3, 4))
+                Time: 0.41s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 2), (3, 5))
+                Time: 0.36s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 7), (2, 5))
+                Time: 0.40s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 3), (4, 3))
+                Time: 0.37s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 0), (5, 3))
+                Time: 0.34s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 2), (4, 2))
+                Time: 0.36s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 0), (4, 3))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 0), (4, 2))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 0), (5, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 3), (2, 6))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 0), (5, 4))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 4), (7, 6))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (4, 6))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 0), (3, 3))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (6, 6))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 7), (5, 5))
+                Time: 0.01s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 7), (5, 7))
+                Time: 0.01s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (5, 4))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (4, 5))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 1), (5, 3))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (0, 5))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 2), (5, 0))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 5), (2, 7))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 5), (5, 7))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 0), (0, 2))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 3), (6, 4))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 2), (2, 4))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 0), (5, 3))
+                Time: 0.01s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 4), (4, 6))
+                Time: 0.01s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 4), (4, 4))
+                Time: 0.01s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 0), (4, 4))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 6), (2, 4))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 4), (5, 5))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 4), (4, 2))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 0), (4, 2))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 4), (4, 4))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 7), (4, 4))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 3), (4, 3))
+                Time: 0.01s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 0), (4, 3))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 3), (3, 3))
+                Time: 0.01s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 0), (4, 1))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 1), (1, 2))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (4, 5))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 2), (3, 4))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 5), (3, 5))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (5, 4))
+                Time: 0.08s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (3, 2))
+                Time: 1.27s
+                Depth: 3
+                Nodes: 10871
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 2), (4, 5))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (4, 2))
+                Time: 1.45s
+                Depth: 3
+                Nodes: 23226
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 5), (1, 5))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (3, 5))
+                Time: 2.24s
+                Depth: 3
+                Nodes: 41232
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 4), (2, 4))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (5, 3))
+                Time: 2.16s
+                Depth: 3
+                Nodes: 58629
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 5), (3, 5))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 7), (5, 4))
+                Time: 1.56s
+                Depth: 3
+                Nodes: 71547
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 1), (2, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 7), (4, 5))
+                Time: 1.35s
+                Depth: 3
+                Nodes: 82706
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 5), (4, 5))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 7), (5, 5))
+                Time: 0.98s
+                Depth: 3
+                Nodes: 91369
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 3), (5, 5))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 7), (6, 6))
+                Time: 0.62s
+                Depth: 3
+                Nodes: 97485
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 4), (5, 6))
+                Time: 0.05s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 0), (4, 1))
+                Time: 0.75s
+                Depth: 3
+                Nodes: 105010
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 6), (4, 2))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 2), (3, 4))
+                Time: 0.48s
+                Depth: 3
+                Nodes: 110580
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 5), (3, 3))
+                Time: 0.06s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 6), (4, 4))
+                Time: 0.55s
+                Depth: 3
+                Nodes: 116839
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 1), (5, 1))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (5, 4))
+                Time: 0.06s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 0), (3, 2))
+                Time: 2.00s
+                Depth: 3
+                Nodes: 10871
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 2), (4, 5))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 0), (4, 2))
+                Time: 1.47s
+                Depth: 3
+                Nodes: 23226
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 5), (1, 5))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((1, 7), (3, 5))
+                Time: 2.21s
+                Depth: 3
+                Nodes: 41232
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 4), (2, 4))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 0), (5, 3))
+                Time: 2.19s
+                Depth: 3
+                Nodes: 58629
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 5), (3, 5))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((5, 7), (5, 4))
+                Time: 1.49s
+                Depth: 3
+                Nodes: 71547
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 1), (2, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((2, 7), (4, 5))
+                Time: 1.35s
+                Depth: 3
+                Nodes: 82706
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 5), (4, 5))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 7), (5, 5))
+                Time: 0.97s
+                Depth: 3
+                Nodes: 91369
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 3), (5, 5))
+                Time: 0.05s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 7), (6, 6))
+                Time: 0.95s
+                Depth: 3
+                Nodes: 97485
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 4), (5, 6))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 0), (4, 1))
+                Time: 0.77s
+                Depth: 3
+                Nodes: 105010
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 6), (4, 2))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((3, 2), (3, 4))
+                Time: 0.49s
+                Depth: 3
+                Nodes: 110580
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 5), (3, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: AiModelA_AlphaBeta
+                Move: ((6, 6), (4, 4))
+                Time: 0.55s
+                Depth: 3
+                Nodes: 116839
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 1), (5, 1))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (5, 4))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (4, 5))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 1), (5, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (0, 5))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 2), (5, 0))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 5), (2, 7))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 5), (5, 7))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 0), (0, 2))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 3), (6, 4))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 2), (2, 4))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 0), (5, 3))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 4), (4, 6))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 4), (4, 4))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 0), (4, 4))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 6), (2, 4))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 4), (5, 5))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 4), (4, 2))
+                Time: 0.01s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 0), (4, 2))
+                Time: 0.01s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 4), (4, 4))
+                Time: 0.01s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 7), (4, 4))
+                Time: 0.01s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 3), (4, 3))
+                Time: 0.01s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 0), (4, 3))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 3), (3, 3))
+                Time: 0.01s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 0), (4, 1))
+                Time: 0.01s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 1), (1, 2))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (4, 5))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 2), (3, 4))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 5), (3, 5))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((2, 7), (5, 4))
+                Time: 1.38s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 2), (5, 0))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((2, 0), (2, 1))
+                Time: 1.30s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 1), (5, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((6, 0), (7, 1))
+                Time: 1.40s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 3), (4, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((3, 0), (3, 2))
+                Time: 1.23s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 3), (1, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((4, 0), (4, 2))
+                Time: 1.06s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 3), (2, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((1, 0), (1, 3))
+                Time: 0.93s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 5), (5, 7))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((5, 4), (2, 4))
+                Time: 0.74s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 4), (4, 4))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 7), (5, 5))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((3, 7), (5, 5))
+                Time: 0.77s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 0), (5, 2))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((4, 7), (5, 6))
+                Time: 0.69s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 2), (5, 5))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((4, 2), (1, 5))
+                Time: 0.59s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 3), (5, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((5, 6), (2, 3))
+                Time: 0.61s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 6), (1, 6))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((6, 7), (3, 4))
+                Time: 0.45s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 5), (2, 5))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((2, 1), (5, 1))
+                Time: 0.31s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 1), (0, 6))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 1), (7, 2))
+                Time: 0.57s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 6), (2, 6))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 2), (4, 2))
+                Time: 0.40s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 6), (5, 4))
+                Time: 0.05s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((2, 7), (5, 4))
+                Time: 1.30s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 2), (5, 0))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((2, 0), (2, 1))
+                Time: 1.28s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 1), (5, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((6, 0), (7, 1))
+                Time: 1.42s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 3), (4, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((3, 0), (3, 2))
+                Time: 1.22s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 3), (1, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((4, 0), (4, 2))
+                Time: 1.07s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 3), (2, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((1, 0), (1, 3))
+                Time: 0.99s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 5), (5, 7))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((5, 4), (2, 4))
+                Time: 0.74s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 4), (4, 4))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((1, 7), (4, 4))
+                Time: 0.64s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 7), (5, 5))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((3, 7), (5, 5))
+                Time: 0.76s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 0), (5, 2))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((4, 7), (5, 6))
+                Time: 0.67s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 2), (5, 5))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((4, 2), (1, 5))
+                Time: 0.59s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 3), (5, 3))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((5, 6), (2, 3))
+                Time: 0.61s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 6), (1, 6))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((6, 7), (3, 4))
+                Time: 0.44s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 5), (2, 5))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((2, 1), (5, 1))
+                Time: 0.32s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 1), (0, 6))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 1), (7, 2))
+                Time: 0.58s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 6), (2, 6))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 2), (4, 2))
+                Time: 0.40s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 1), (0, 7))
+                Time: 0.91s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (4, 5))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 5), (4, 5))
+                Time: 1.99s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 7), (3, 5))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 2), (3, 5))
+                Time: 1.99s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (6, 5))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 6), (6, 7))
+                Time: 0.94s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 7), (5, 5))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((6, 7), (7, 6))
+                Time: 1.75s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 7), (6, 4))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((3, 5), (2, 4))
+                Time: 1.07s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 4), (6, 1))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 4), (4, 4))
+                Time: 0.98s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 5), (6, 2))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 6), (5, 4))
+                Time: 1.63s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 5), (7, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((2, 4), (6, 4))
+                Time: 1.35s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((7, 3), (5, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 3), (2, 3))
+                Time: 0.92s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 0), (4, 2))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 1), (7, 3))
+                Time: 1.09s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 0), (3, 2))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 4), (1, 5))
+                Time: 0.97s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 0), (6, 4))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 5), (3, 5))
+                Time: 1.25s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 2), (5, 4))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 7), (2, 5))
+                Time: 1.25s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 7), (2, 5))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((2, 3), (5, 3))
+                Time: 1.16s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((5, 0), (5, 3))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((0, 6), (1, 6))
+                Time: 0.59s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 0), (4, 1))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 3), (5, 3))
+                Time: 0.42s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 5), (5, 2))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((7, 2), (7, 1))
+                Time: 0.28s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 1), (6, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: NegamaxAlphaBeta
+                Move: ((4, 5), (7, 5))
+                Time: 0.12s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 1), (4, 1))
+                Time: 0.02s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 7), (0, 5))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((0, 5), (2, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((2, 3), (4, 1))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 7), (6, 5))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 7), (5, 7))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((1, 0), (3, 2))
+                Time: 0.04s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 5), (4, 3))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((6, 0), (4, 2))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((4, 0), (4, 6))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 7), (5, 5))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                
+                AI Type: MonteCarloAI
+                Move: ((3, 2), (5, 4))
+                Time: 0.03s
+                Depth: 3
+                Nodes: 0
+
+                

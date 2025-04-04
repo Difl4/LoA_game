@@ -3,6 +3,7 @@ from ai.minimax_alpha_beta import AiModelA_AlphaBeta
 from ai.minimax_no_pruning import AiModelA_NoPruning
 from ai.negamax_no_pruning import Negamax
 from ai.negamax_alpha_beta import NegamaxAlphaBeta
+from ai.MCTS import MonteCarloAI
 from config.translations import get_matrix_position
 import threading
 import time
@@ -29,7 +30,8 @@ class GameFlow:
             'Minimax(cuts)': AiModelA_AlphaBeta,
             'Minimax(no cuts)': AiModelA_NoPruning,
             'Negamax(cuts)': NegamaxAlphaBeta,
-            'Negamax(no cuts)': Negamax
+            'Negamax(no cuts)': Negamax,
+            'MCTS': MonteCarloAI
         }
 
         # Ai flags

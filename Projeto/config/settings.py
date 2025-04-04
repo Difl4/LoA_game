@@ -35,7 +35,7 @@ class Settings:
         self.black_piece = 'images/black_checker.bmp'
 
         # Player Settings
-        self.player_options = ['Human', 'Minimax(cuts)', 'Minimax(no cuts)', 'Negamax(cuts)', 'Negamax(no cuts)']
+        self.player_options = ['Human', 'Minimax(cuts)', 'Minimax(no cuts)', 'Negamax(cuts)', 'Negamax(no cuts)', 'MCTS']
 
         # Game settings
         self.fps = 60

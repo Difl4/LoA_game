@@ -45,7 +45,7 @@ class Board:
                 self.board_dict[(row, col)] = 'B'  # 'B' represents a black piece in the matrix
         print(self.board_dict)
 
-    def draw_board(self):
+    def draw_board(self, last_move_to = None):
         """Draw the game board with alternating colors."""
         for row in range(self.settings.rows):
             for col in range(self.settings.cols):
@@ -59,7 +59,13 @@ class Board:
                     (col * self.settings.square_size, row * self.settings.square_size, 
                      self.settings.square_size, self.settings.square_size)
                 )
-    
+        if last_move_to:
+            row, col = last_move_to
+            overlay = pygame.Surface((self.settings.square_size, self.settings.square_size), pygame.SRCALPHA)
+            overlay.fill((0, 0, 0, 50))
+            self.screen.blit(overlay, (col * self.settings.square_size, row * self.settings.square_size))
+
+
     def reset_board(self):
         """Reset the board to the initial state."""
         # Clear the existing pieces and board dictionary

@@ -23,21 +23,26 @@ removing it permanently from the game. But don´t be fooled! Less pieces means l
 
 Our coding project
 
-In this folder you will find six other directories and four files.
+In this folder you will find six other directories and two files.
 The folder "ai" contains all the different playable artificial intelligences we developed, as well as the utility function designed to guide their search. They are 
-all structured as Python classes, that follow a same interface described in "base_ai", which defines the attributes game, colour of current player, search depth 
+all structured as Python classes, that follow a same interface described in "base_ai.py", which defines the attributes game, colour of current player, search depth 
 and number of nodes explored whenever an AI player is initialized.
 In this same directory there also are:
-  - two files that operate the Monte Carlo Tree Search (MCTS), "MCTS" and "MCTS_node";
-  - the file "minimax", that contains the "MinimaxAI" class, which operates according to "base_ai" and becomes a search algorithm model for all subsequent AI's, also
+  - two files that operate the Monte Carlo Tree Search (MCTS), "MCTS.py" and "MCTS_node.py";
+  - the file "minimax.py", that contains the "MinimaxAI" class, which operates according to "base_ai.py" and becomes a search algorithm model for all subsequent AI's, also
   - homing the utility functions that will guide the different searches; 
-  - "minimax_no_pruning", "minimax_alpha_beta", "negamax_no_pruning" and "negamax_alpha_beta" which contain the playable AI's following these algorithms;
-  - "enhanced_heuristic", "proximity_to_center" and "union_find", three classes that operate the utility functions to be used by the MCTS.
+  - "minimax_no_pruning.py", "minimax_alpha_beta.py", "negamax_no_pruning.py" and "negamax_alpha_beta.py" which contain the playable AI's following these algorithms;
+  - "enhanced_heuristic.py" and "proximity_to_center.py", two classes that operate the utility functions to be used by the MCTS.
     
-The folder "config" contains the modules "settings", defining all the game's configurations, allowing for board size, colour and screen size total costumization, and
-"translations", where data can be easily passed from matrix form to pixel form and vice-versa.
+The folder "config" contains the modules "settings.py", defining all the game's configurations, allowing for board size, colour and screen size total costumization, and
+"translations.py", where data can be easily passed from matrix form to pixel form and vice-versa.
 
-The directory "game" where 
+The directory "game" where the board and pieces objects are defined, as long with the movement, the pre-game initial screen and the termination state check conditions. It is also 
+in "game" where the module "lines_of_action.py", that calls all other modules and operates the entirety of the game, is.
 
+The folder "tests" homes a pytest module where case-specific game scenarios can be tested in multiple inquiries at the same time.
 
+The directory "ui" contains the files "button.py" and "option_button.py", which configurate the intial screen´s selectable buttons for game customization.
 
+The files "log.txt" where all played games are registered in text form, and "main.py", where the module that runs the game, "lines_of_action.py", is called and the pygame loop 
+starts. In order to play the game, "main.py" is the only file that needs to be executed.

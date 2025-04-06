@@ -2,6 +2,7 @@ from ai.minimax import MinimaxAI
 
 class NegamaxAlphaBeta(MinimaxAI):
     def negamax(self, board, depth, player, evalfunction, alpha=float('-inf'), beta=float('inf')):
+        self.nodes_explored += 1
         """Negamax with Alpha-Beta Pruning."""
         opponent = "W" if player == "B" else "B"
 

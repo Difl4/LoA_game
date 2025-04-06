@@ -6,23 +6,25 @@ class MonteCarloAI(BaseAI):
         super().__init__(game, color)
         self.rollouts = rollouts
         self.win_checker = game.win_checker
-        self.heuristic = None
+        self.heuristic = None  # To be set by subclasses
         self.moves = game.movement
+        self.nodes_explored = 0  # Initialize counter
         
     def get_move(self, board_state):
+        self.nodes_explored = 0  # Reset counter at start of move calculation
         if not board_state:
             return None
             
         root = MCTSNode(board_state.copy())
         root.untried_moves = list(self._get_valid_moves(board_state))
         
-        # If no valid moves, return None
         if not root.untried_moves and not root.children:
             return None
         
         for _ in range(self.rollouts):
+            self.nodes_explored += 1  # Count each rollout
             node = self._tree_policy(root)
-            if node is None:  # Skip if no node could be selected
+            if node is None:
                 continue
                 
             result = self._simulate(node.state.copy())

@@ -57,6 +57,15 @@ class GameFlow:
         self.black_player = self._initialize_player(black_choice, 'B')
         self.current_turn = 'B'
 
+        # Log game start with separator
+        with open("log.txt", "a") as logfile:
+            logfile.write("\n\n" + "=" * 80 + "\n")
+            logfile.write(f"NEW GAME STARTED\n")
+            logfile.write(f"Time: {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
+            logfile.write(f"White Player: {white_choice}\n")
+            logfile.write(f"Black Player: {black_choice}\n")
+            logfile.write("=" * 80 + "\n\n")
+
     def _initialize_player(self, choice, color):
         """Initialize a player based on the selected choice."""
         player_class = self.PLAYER_MAP.get(choice)
@@ -154,6 +163,11 @@ class GameFlow:
 
     def _handle_game_end(self, winner):
         """Display winner and return to menu."""
+        # Log the game result
+        with open("log.txt", "a") as logfile:
+            logfile.write(f"\nGAME RESULT: {winner} Player Wins!\n")
+            logfile.write("=" * 80 + "\n\n")  # Add separator after game ends
+        
         # Display winner message
         self._update_screen()  # Ensure board is drawn first
         

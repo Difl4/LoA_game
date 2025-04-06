@@ -77,7 +77,7 @@ class LinesOfAction:
     def _update_screen(self):
         """Update and redraw the game screen."""
         if not self.in_menu:
-            self.board.draw_board()
+            self.board.draw_board(self.game_flow.last_move_to)
             if self.game_flow.game_active:
                 self.board.draw_pieces()
                 self.board.draw_valid_moves(self.game_flow.valid_moves)

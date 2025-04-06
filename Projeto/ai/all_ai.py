@@ -18,20 +18,26 @@ from ai.minimax import MinimaxAI
 class MinimaxSimple(AiModelA_AlphaBeta):
     """Minimax with basic evaluation function."""
     def get_move(self, board_state):
-        # Bind the evaluate method to this instance
-        return super().get_move(board_state, lambda b, p: MinimaxAI.evaluate(self, b, p))
+        def evaluate(board, player):
+            return MinimaxAI.evaluate(self, board, player)
+        
+        return super().get_move(board_state, evaluate)
 
 class MinimaxBetter(AiModelA_AlphaBeta):
     """Minimax with advanced evaluation function."""
     def get_move(self, board_state):
-        # Bind the better_evaluate method to this instance
-        return super().get_move(board_state, lambda b, p: MinimaxAI.better_evaluate(self, b, p))
+        def evaluate(board, player):
+            return MinimaxAI.better_evaluate(self, board, player)
+        
+        return super().get_move(board_state, evaluate)
 
 class Random(AiModelA_AlphaBeta):
     """Minimax with random evaluation (for testing)."""
     def get_move(self, board_state):
-        # Bind the random_evaluate method to this instance
-        return super().get_move(board_state, lambda b, p: MinimaxAI.random_evaluate(self, b, p))
+        def evaluate(board, player):
+            return MinimaxAI.random_evaluate(self, board, player)
+        
+        return super().get_move(board_state, evaluate)
 
 # ======================
 # Negamax Variants
@@ -40,12 +46,18 @@ class Random(AiModelA_AlphaBeta):
 class NegamaxSimple(NegamaxAlphaBeta):
     """Negamax with basic evaluation."""
     def get_move(self, board_state):
-        return super().get_move(board_state, lambda b, p: MinimaxAI.evaluate(self, b, p))
+        def evaluate(board, player):
+            return MinimaxAI.evaluate(self, board, player)
+        
+        return super().get_move(board_state, evaluate)
 
 class NegamaxBetter(NegamaxAlphaBeta):
     """Negamax with advanced evaluation."""
     def get_move(self, board_state):
-        return super().get_move(board_state, lambda b, p: MinimaxAI.better_evaluate(self, b, p))
+        def evaluate(board, player):
+            return MinimaxAI.better_evaluate(self, board, player)
+        
+        return super().get_move(board_state, evaluate)
 
 # ======================
 # MCTS Variants

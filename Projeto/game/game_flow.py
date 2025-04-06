@@ -26,6 +26,7 @@ class GameFlow:
         self.current_turn = 'B'
         self.white_player = None
         self.black_player = None
+        self.last_move_to = None
 
         self.PLAYER_MAP = {
             'Human': None,
@@ -122,6 +123,8 @@ class GameFlow:
             if piece.rect.topleft == (col_from * self.settings.square_size, row_from * self.settings.square_size):
                 piece.rect.topleft = (col_to * self.settings.square_size, row_to * self.settings.square_size)
                 break
+        self.last_move_to =(row_to, col_to)
+        print(f"Moving {self.current_turn} from {from_pos} to {to_pos}")
 
         self.selected_piece = None
         self.valid_moves = []

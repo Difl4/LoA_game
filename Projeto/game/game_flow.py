@@ -197,6 +197,7 @@ class GameFlow:
         self.current_turn = 'B'
         self.game_active = False
         self.selected_piece = None
+        self.last_move_to = None
         self.valid_moves = []
         self.board.reset_board()
         self.game.in_menu = True  # Signal to return to menu

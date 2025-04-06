@@ -1,7 +1,6 @@
 class ProximityToCenterHeuristic:
     def __init__(self, settings):
         self.settings = settings
-        self.center = (self.settings.rows // 2, self.settings.cols // 2)  # Middle of the board
 
     def evaluate(self, board, player):
         player_positions = [(row, col) for (row, col), piece in board.items() if piece == player]
@@ -25,10 +24,21 @@ class ProximityToCenterHeuristic:
             total_distance += distance
 
         # Normalize the distance
-        max_possible_distance = self.settings.rows + self.settings.cols - 2
+        # Calculate the Manhattan distance from the center of mass to each of the four corners
+        corners = [(0, 0), (0, self.settings.cols - 1), 
+                   (self.settings.rows - 1, 0), (self.settings.rows - 1, self.settings.cols - 1)]
+
+        corner_distances = [
+            abs(center_of_mass[0] - r) + abs(center_of_mass[1] - c)
+            for r, c in corners
+        ]
+
+        # The maximum distance from the center of mass to any corner
+        max_possible_distance = max(corner_distances)
+
         normalized_distance = total_distance / len(player_positions)
 
         # Higher proximity = better, so we want to return a higher value for closer proximity
         # The heuristic should favor lower distances, so we can subtract from a max possible score
         # Higher is better (minimizing distance is the goal).
-        return 1 - (normalized_distance / max_possible_distance)
+        return 1- (normalized_distance / max_possible_distance)

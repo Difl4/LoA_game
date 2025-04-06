@@ -3,6 +3,7 @@ from ai.minimax_alpha_beta import AiModelA_AlphaBeta
 from ai.minimax_no_pruning import AiModelA_NoPruning
 from ai.negamax_no_pruning import Negamax
 from ai.negamax_alpha_beta import NegamaxAlphaBeta
+from ai.minimax import MinimaxAI
 from ai.MCTS import MonteCarloAI
 from config.translations import get_matrix_position
 import threading
@@ -30,10 +31,18 @@ class GameFlow:
 
         self.PLAYER_MAP = {
             'Human': None,
-            'Minimax(cuts)': AiModelA_AlphaBeta,
-            'Minimax(no cuts)': AiModelA_NoPruning,
-            'Negamax(cuts)': NegamaxAlphaBeta,
-            'Negamax(no cuts)': Negamax,
+            'Minimax(cuts) - Better Evaluate': AiModelA_AlphaBeta,
+            'Minimax(no cuts) - Better Evaluate': AiModelA_NoPruning,
+            'Minimax(cuts) - Simple Evaluate': AiModelA_AlphaBeta,
+            'Minimax(no cuts) - Simple Evaluate': AiModelA_NoPruning,
+            'Minimax(cuts) - Random Evaluate': AiModelA_AlphaBeta,
+            'Minimax(no cuts) - Random Evaluate': AiModelA_NoPruning,
+            'Negamax(cuts) - Better Evaluate': NegamaxAlphaBeta,
+            'Negamax(no cuts) - Better Evaluate': Negamax,
+            'Negamax(cuts) - Simple Evaluate': NegamaxAlphaBeta,
+            'Negamax(no cuts) - Simple Evaluate': Negamax,
+            'Negamax(cuts) - Random Evaluate': NegamaxAlphaBeta,
+            'Negamax(no cuts) - Random Evaluate': Negamax,
             'MCTS': MonteCarloAI
         }
 
@@ -50,9 +59,26 @@ class GameFlow:
         self.current_turn = 'B'
 
     def _initialize_player(self, choice, color):
+        # """Initialize a player based on the selected choice."""
+        # player_class = self.PLAYER_MAP.get(choice)
+        # return player_class(self, color) if player_class else 'Human'
         """Initialize a player based on the selected choice."""
         player_class = self.PLAYER_MAP.get(choice)
-        return player_class(self, color) if player_class else 'Human'
+        if player_class is None:
+            return None
+            
+        # Create an instance of the AI player
+        ai_player = player_class(self, color)
+        
+        # Store the evaluation function to use based on the choice
+        if "Better Evaluate" in choice:
+            ai_player.evaluate_function = lambda board, player: MinimaxAI.better_evaluate(ai_player, board, player)
+        elif "Simple Evaluate" in choice:
+            ai_player.evaluate_function = lambda board, player: MinimaxAI.evaluate(ai_player, board, player)
+        elif "Random Evaluate" in choice:
+            ai_player.evaluate_function = lambda board, player: MinimaxAI.random_evaluate(ai_player, board, player)
+            
+        return ai_player
 
     def switch_turn(self):
         """Switch turns between players."""
@@ -75,7 +101,14 @@ class GameFlow:
     
         def ai_thread():
             start = time.time()
-            self.ai_move = self.ai_player.get_move(self.board.board_dict)
+            #self.ai_move = self.ai_player.get_move(self.board.board_dict)
+            ai_class_name = self.ai_player.__class__.__name__
+            if ai_class_name == 'MonteCarloAI':
+                # MonteCarloAI only takes the board state
+                self.ai_move = self.ai_player.get_move(self.board.board_dict)
+            else:
+                # All other classes expect the evaluate_function as a parameter
+                self.ai_move = self.ai_player.get_move(self.board.board_dict, self.ai_player.evaluate_function)
             time_taken = time.time() - start
             
             with open("log.txt", "a") as logfile:

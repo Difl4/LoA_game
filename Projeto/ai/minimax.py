@@ -16,6 +16,9 @@ class MinimaxAI(BaseAI):
                 valid_moves[pos] = self.moves.get_valid_moves(pos[0], pos[1])
         return valid_moves
 
+    def random_evaluate(self, board, player):
+        return random.randint(-100000, 100000)
+
     def evaluate(self, board, player):
         opponent = "W" if player == "B" else "B"
         

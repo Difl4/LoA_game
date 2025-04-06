@@ -1,12 +1,12 @@
 from ai.minimax import MinimaxAI
 
 class NegamaxAlphaBeta(MinimaxAI):
-    def negamax(self, board, depth, player, alpha=float('-inf'), beta=float('inf')):
+    def negamax(self, board, depth, player, evalfunction, alpha=float('-inf'), beta=float('inf')):
         """Negamax with Alpha-Beta Pruning."""
         opponent = "W" if player == "B" else "B"
 
         if depth == 0 or self.win_checker.check_win(player, board) or self.win_checker.check_win(opponent, board):
-            return self.better_evaluate(board, player), None
+            return evalfunction(board, player), None
 
         valid_moves = self.get_all_valid_moves(board, player)
         best_value = float('-inf')
@@ -17,7 +17,7 @@ class NegamaxAlphaBeta(MinimaxAI):
                 new_board = board.copy()
                 self._move_piece_on_board(new_board, piece, move)
 
-                nega_val, _ = self.negamax(new_board, depth - 1, opponent, -beta, -alpha)
+                nega_val, _ = self.negamax(new_board, depth - 1, opponent, evalfunction, -beta, -alpha)
                 nega_val = -nega_val
 
                 if nega_val > best_value:
@@ -30,7 +30,7 @@ class NegamaxAlphaBeta(MinimaxAI):
 
         return best_value, best_move
     
-    def get_move(self, board_state) -> tuple[tuple[int, int], tuple[int, int]]:
+    def get_move(self, board_state, evalfunction) -> tuple[tuple[int, int], tuple[int, int]]:
         """Return the best move based on negamax with alpha-beta pruning."""
-        _, best_move = self.negamax(board_state, depth=self.search_depth, player=self.color)
+        _, best_move = self.negamax(board_state, depth=self.search_depth, player=self.color, evalfunction=evalfunction)
         return best_move

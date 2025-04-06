@@ -39,8 +39,16 @@ class Settings:
         self.COLOR_HOVER = "white"  # White hover color for text
         self.COLOR_BACK_HOVER = "Green"  # Green for "Back" button hover state
 
-        # Player Settings
-        self.player_options = ['Human', 'Minimax(cuts) - Better Evaluate', 'Minimax(no cuts) - Better Evaluate', 'Minimax(cuts) - Simple Evaluate', 'Minimax(no cuts) - Simple Evaluate', 'Minimax(cuts) - Random Evaluate', 'Minimax(no cuts) - Random Evaluate', 'Negamax(cuts) - Better Evaluate', 'Negamax(no cuts) - Better Evaluate', 'Negamax(cuts) - Simple Evaluate', 'Negamax(no cuts) - Simple Evaluate', 'Negamax(cuts) - Random Evaluate', 'Negamax(no cuts) - Random Evaluate', 'MCTS']
-
+        self.player_options = [
+            'Human',
+            'Minimax (Simple)',
+            'Minimax (Better)',
+            'Random',
+            'Negamax (Simple)',
+            'Negamax (Better)',
+            'MCTS (Center Mass)',
+            'MCTS (Enhanced)',
+            'MCTS (Connectivity)'
+        ]
         # Game settings
         self.fps = 60

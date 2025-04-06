@@ -1,16 +1,12 @@
-import random
 from ai.base_ai import BaseAI
 from ai.MCTS_node import MCTSNode
-from ai.connectivity_heuristic import ConnectivityFirstHeuristic
-from ai.enhanced_heuristic import EnhancedHeuristic
-from ai.proximity_to_center import ProximityToCenterHeuristic
 
 class MonteCarloAI(BaseAI):
     def __init__(self, game, color, rollouts=1000):
         super().__init__(game, color)
         self.rollouts = rollouts
         self.win_checker = game.win_checker
-        self.heuristic = ProximityToCenterHeuristic(game.settings)
+        self.heuristic = None
         self.moves = game.movement
         
     def get_move(self, board_state):

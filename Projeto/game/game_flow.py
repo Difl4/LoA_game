@@ -156,8 +156,10 @@ class GameFlow:
 
     def check_for_winner(self):
         """Check if there is a winner and handle game end."""
-        if self.win_checker.check_win(self.current_turn):
-            self._handle_game_end(self.current_turn)
+        if self.win_checker.check_win('W'):
+            self._handle_game_end('W')
+        elif self.win_checker.check_win('B'):
+            self._handle_game_end('B')
         else:
             self.switch_turn()
 

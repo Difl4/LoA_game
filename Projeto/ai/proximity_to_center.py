@@ -25,7 +25,7 @@ class ProximityToCenterHeuristic:
             total_distance += distance
 
         # Normalize the distance
-        max_possible_distance = abs(self.settings.rows // 2) + abs(self.settings.cols // 2)
+        max_possible_distance = self.settings.rows + self.settings.cols - 2
         normalized_distance = total_distance / len(player_positions)
 
         # Higher proximity = better, so we want to return a higher value for closer proximity

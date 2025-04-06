@@ -25,9 +25,9 @@ class EnhancedHeuristic:
         mobility = self._mobility_score(board, player)
         
         # Combined evaluation
-        return (0.4 * connectivity + 
+        return (0.5 * connectivity + 
                 0.2 * (1 - opponent_connectivity) + 
-                0.3 * center_control + 
+                0.2 * center_control + 
                 0.1 * mobility)
 
     def _connectivity_score(self, board, player, pieces):
@@ -87,9 +87,7 @@ class EnhancedHeuristic:
         
         for pos in board:
             if board[pos] == player:
-                # Assuming each piece could theoretically have 8 moves
                 max_possible += 8
-                # Count actual valid moves
                 total_moves += len(list(self._get_valid_moves_single(pos, board)))
         
         if max_possible == 0:

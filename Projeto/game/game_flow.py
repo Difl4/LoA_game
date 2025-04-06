@@ -7,16 +7,18 @@ from ai.MCTS import MonteCarloAI
 from config.translations import get_matrix_position
 import threading
 import time
+import pygame
 
 class GameFlow:
     """Handles the flow of the game, including turns and win checking."""
 
     def __init__(self, game):
-
+        self.game = game
         self.board = game.board
         self.movement = game.movement
         self.win_checker = game.win_checker
         self.settings = game.settings
+        self.screen = game.screen
         self._update_screen = game._update_screen
         self.game_active = False
         self.selected_piece = None
@@ -42,10 +44,8 @@ class GameFlow:
     def start_game(self, white_choice, black_choice):
         """Initialize players and start the game using a dictionary mapping."""
         self.game_active = True
-
         self.white_player = self._initialize_player(white_choice, 'W')
         self.black_player = self._initialize_player(black_choice, 'B')
-
         self.current_turn = 'B'
 
     def _initialize_player(self, choice, color):
@@ -74,10 +74,9 @@ class GameFlow:
     
         def ai_thread():
             start = time.time()
-
             self.ai_move = self.ai_player.get_move(self.board.board_dict)
-
             time_taken = time.time() - start
+            
             with open("log.txt", "a") as logfile:
                 logfile.write(f"""
                 AI Type: {type(ai_player).__name__}
@@ -108,7 +107,6 @@ class GameFlow:
 
     def _move_piece(self, from_pos, to_pos):
         """Move a piece on the board."""
-        print(f"Moving piece from {from_pos} to {to_pos}")
         row_from, col_from = from_pos
         row_to, col_to = to_pos
 
@@ -131,20 +129,39 @@ class GameFlow:
     def _capture_piece(self, row, col):
         """Remove a captured piece from the board."""
         del self.board.board_dict[(row, col)]
-
         for piece in self.board.pieces:
             if piece.rect.topleft == (col * self.settings.square_size, row * self.settings.square_size):
                 self.board.pieces.remove(piece)
                 break
 
     def check_for_winner(self):
-        """Check if there is a winner."""
+        """Check if there is a winner and handle game end."""
         if self.win_checker.check_win(self.current_turn):
-            print(f"{self.current_turn} wins!")
-            self.game_active = False
-            self.reset_game()
+            self._handle_game_end(self.current_turn)
         else:
             self.switch_turn()
+
+    def _handle_game_end(self, winner):
+        """Display winner and return to menu."""
+        # Display winner message
+        self._update_screen()  # Ensure board is drawn first
+        
+        font = pygame.font.SysFont(None, 72)
+        winner_text = font.render(f"{winner} Player Wins!", True, (255, 255, 255))
+        text_rect = winner_text.get_rect(center=(self.settings.screen_width//2, self.settings.screen_height//2))
+        
+        # Create semi-transparent overlay
+        overlay = pygame.Surface((self.settings.screen_width, self.settings.screen_height), pygame.SRCALPHA)
+        overlay.fill((0, 0, 0, 180))  # Semi-transparent black
+        
+        # Draw everything
+        self.screen.blit(overlay, (0, 0))
+        self.screen.blit(winner_text, text_rect)
+        pygame.display.flip()
+        
+        # Wait before returning to menu
+        pygame.time.wait(3000)  # 3 second delay
+        self.reset_game()
 
     def reset_game(self):
         """Reset the game state and transition back to the main menu."""
@@ -152,12 +169,13 @@ class GameFlow:
         self.black_player = None
         self.current_turn = 'B'
         self.game_active = False
+        self.selected_piece = None
+        self.valid_moves = []
         self.board.reset_board()
-        self._update_screen()
+        self.game.in_menu = True  # Signal to return to menu
 
     def select_piece(self, pos):
         """Handle piece selection and valid move generation."""
-
         if not self.game_active or isinstance((self.black_player if self.current_turn == 'B' else self.white_player), BaseAI):
             return  # Ignore clicks when it's the AI's turn
         

@@ -34,6 +34,11 @@ class Settings:
         self.white_piece = 'images/white_checker.bmp'
         self.black_piece = 'images/black_checker.bmp'
 
+        # Define button colors
+        self.COLOR_BASE = "#e8d1a5"  # Beige base color for normal state
+        self.COLOR_HOVER = "white"  # White hover color for text
+        self.COLOR_BACK_HOVER = "Green"  # Green for "Back" button hover state
+
         # Player Settings
         self.player_options = ['Human', 'Minimax(cuts)', 'Minimax(no cuts)', 'Negamax(cuts)', 'Negamax(no cuts)', 'MCTS']
 

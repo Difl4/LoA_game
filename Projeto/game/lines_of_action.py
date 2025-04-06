@@ -4,10 +4,8 @@ from config.settings import Settings
 from game.board import Board
 from game.movement import LOAMovement
 from game.win_check import WinChecker
-from ui.button import Button
-from ui.option_button import OptionButton
+from game.main_menu import MainMenu
 from game.game_flow import GameFlow
-
 from ai.base_ai import BaseAI
 
 class LinesOfAction:
@@ -17,88 +15,81 @@ class LinesOfAction:
         self.settings = Settings()
         self.clock = pygame.time.Clock()
 
-        # Set up the screen.
+        # Set up the screen
         self.screen = pygame.display.set_mode(
             (self.settings.screen_width, self.settings.screen_height))
         pygame.display.set_caption("Lines Of Action")
 
-        # Initialize the board and movement logic.
+        # Initialize game components
         self.board = Board(self)
         self.movement = LOAMovement(self)
-        self.win_checker = WinChecker(self)  # Initialize WinChecker
-
-        # Initialize the game flow class
+        self.win_checker = WinChecker(self)
         self.game_flow = GameFlow(self)
+        self.main_menu = MainMenu(self)
 
-        # Make the play button and option buttons
-        self.play_button = Button(self, "Play", self.settings.screen_height // 2)
-        self.white_selector = OptionButton(self, "White Player", 0.25, 0.75)
-        self.black_selector = OptionButton(self, "Black Player", 0.75, 0.75)
-
-        # Add the player text
-        self.white_player_text = "White Pieces"
-        self.black_player_text = "Black Pieces"
+        # Game state flags
+        self.running = True
+        self.in_menu = True
 
     def run_game(self):
         """Start the main loop for the game."""
-        while True:
-            self._check_events()
-            self._update_screen()
+        while self.running:
+            if self.in_menu:
+                self._run_menu_loop()
+            else:
+                self._run_game_loop()
 
-            if self.game_flow.game_active:
-                self.game_flow.handle_turn()  # <-- Handle AI turn if necessary
-                self.game_flow.update()
+    def _run_menu_loop(self):
+        """Run the menu loop."""
+        self.main_menu.run_menu()
+        # After exiting menu, check if we should start the game
+        if self.game_flow.game_active:
+            self.in_menu = False
 
-            self.clock.tick(self.settings.fps)
+    def _run_game_loop(self):
+        """Run the main game loop."""
+        self._check_events()
+        self._update_screen()
+
+        if self.game_flow.game_active:
+            self.game_flow.handle_turn()
+            self.game_flow.update()
+        else:
+            # Game ended, return to menu
+            self.in_menu = True
+
+        self.clock.tick(self.settings.fps)
 
     def _check_events(self):
         """Handle key and mouse events."""
-
-        current_player = self.game_flow.black_player if self.game_flow.current_turn == 'B' else self.game_flow.white_player
-        is_ai_turn = isinstance(current_player, BaseAI)
-
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
+                self.running = False
                 sys.exit()
-            elif event.type == pygame.MOUSEBUTTONDOWN and not is_ai_turn:
-                mouse_pos = pygame.mouse.get_pos()
-                if not self.game_flow.game_active:
-                    self._check_play_button(mouse_pos)
-                    self.white_selector.handle_event(event)  # Handle the white player option button event
-                    self.black_selector.handle_event(event)  # Handle the black player option button event
-                else:
-                    self.game_flow.select_piece(mouse_pos)  # <-- Select piece through GameFlow
-
-    def _check_play_button(self, mouse_pos):
-        """Start a new game when the player clicks Play."""
-        if self.play_button.rect.collidepoint(mouse_pos):
-            self.game_flow.game_active = True
-
-            white_choice = self.settings.player_options[self.white_selector.selected_index]
-            black_choice = self.settings.player_options[self.black_selector.selected_index]
-
-            # Pass the choices to the game flow to initialize the players (including AI)
-            self.game_flow.start_game(white_choice, black_choice)  # <-- Initialize game flow with player choices
+            elif event.type == pygame.MOUSEBUTTONDOWN:
+                if not self.in_menu and self.game_flow.game_active:
+                    current_player = (self.game_flow.black_player if self.game_flow.current_turn == 'B' 
+                                    else self.game_flow.white_player)
+                    if not isinstance(current_player, BaseAI):
+                        mouse_pos = pygame.mouse.get_pos()
+                        self.game_flow.select_piece(mouse_pos)
 
     def _update_screen(self):
         """Update and redraw the game screen."""
-        self.board.draw_board()
-
-        if self.game_flow.game_active:
-            self.board.draw_pieces()
-            self.board.draw_valid_moves(self.game_flow.valid_moves)  # <-- Draw valid moves from GameFlow
-            self._draw_player_text(self.settings.screen_width // 2, 20, f"{self.game_flow.current_turn} Player's Turn")
-        else:
-            self.play_button.draw_button()
-            self.white_selector.draw_button()  # Draw the white player option button
-            self.black_selector.draw_button()  # Draw the black player option button
-            self._draw_player_text(self.white_selector.rect.centerx, self.white_selector.rect.centery - 30, self.white_player_text)
-            self._draw_player_text(self.black_selector.rect.centerx, self.black_selector.rect.centery - 30, self.black_player_text)
-        pygame.display.flip()
+        if not self.in_menu:
+            self.board.draw_board()
+            if self.game_flow.game_active:
+                self.board.draw_pieces()
+                self.board.draw_valid_moves(self.game_flow.valid_moves)
+                self._draw_player_text(
+                    self.settings.screen_width // 2, 20, 
+                    f"{self.game_flow.current_turn} Player's Turn"
+                )
+            pygame.display.flip()
 
     def _draw_player_text(self, x, y, text):
-        """Draw the text (selected player) above the button."""
+        """Draw the current player's turn text."""
         font = pygame.font.SysFont(None, 36)
-        player_text = font.render(text, True, (204, 85, 0))  # White color for text
+        player_text = font.render(text, True, (204, 85, 0))
         text_rect = player_text.get_rect(center=(x, y))
         self.screen.blit(player_text, text_rect)

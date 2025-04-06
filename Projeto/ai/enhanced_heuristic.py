@@ -12,13 +12,13 @@ class EnhancedHeuristic:
         if not player_pieces:
             return 0.0
 
-        # 1. Connectivity score (40% weight)
+        # 1. Connectivity score (50% weight)
         connectivity = self._connectivity_score(board, player, player_pieces)
         
         # 2. Opponent connectivity (20% weight, inverted)
         opponent_connectivity = self._connectivity_score(board, opponent, opponent_pieces)
         
-        # 3. Center control (30% weight)
+        # 3. Center control (20% weight)
         center_control = self._center_control_score(player_pieces)
         
         # 4. Mobility (10% weight)

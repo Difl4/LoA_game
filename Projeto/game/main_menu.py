@@ -20,18 +20,18 @@ class MainMenu:
         self.background_rect = self.background_image.get_rect()
 
         # Title text
-        self.title_font = pygame.font.SysFont(None, 72)
+        self.title_font = pygame.font.SysFont(None, 100)
         self.title_text = self.title_font.render("Lines of Action", True, (255, 255, 255))
-        self.title_rect = self.title_text.get_rect(center=(self.settings.screen_width // 2, 50))
+        self.title_rect = self.title_text.get_rect(center=(self.settings.screen_width // 2, 100))
 
         # Main menu buttons
         self.main_play_button = Button(
-            self.game, "Play", 0.5, 0.4, 
-            self.settings.COLOR_BASE, self.settings.COLOR_HOVER
+            self.game, "Play", 0.5, 0.5, 
+            (220,220,220), self.settings.COLOR_HOVER
         )
         self.settings_button = Button(
-            self.game, "Settings", 0.5, 0.6, 
-            self.settings.COLOR_BASE, self.settings.COLOR_HOVER
+            self.game, "Settings", 0.5, 0.7, 
+            (220,220,220), self.settings.COLOR_HOVER
         )
         self.back_button = Button(
             self.game, "BACK", 0.5, 0.9, 
@@ -40,15 +40,15 @@ class MainMenu:
 
         # Play screen buttons
         self.play_screen_play_button = Button(
-            self.game, "Start Game", 0.5, 0.4,
-            self.settings.COLOR_BASE, self.settings.COLOR_HOVER
+            self.game, "Start Game", 0.5, 0.7,
+            (240,240,240), self.settings.COLOR_HOVER
         )
 
         # Board size selector
         self.board_size_selector = OptionButton(
             self.game, 
             f"Board Size: {self.settings.rows}x{self.settings.cols}", 
-            0.5, 0.75
+            0.5, 0.55
         )
         # Customize the options for board size
         self.board_size_selector.options = ['6x6', '7x7', '8x8', '9x9', '10x10']
@@ -57,8 +57,8 @@ class MainMenu:
         self.board_size_selector.update_text()
 
         # Player selection options
-        self.white_selector = OptionButton(self.game, "Human", 0.25, 0.6)
-        self.black_selector = OptionButton(self.game, "Human", 0.75, 0.6)
+        self.white_selector = OptionButton(self.game, "Human", 0.25, 0.5)
+        self.black_selector = OptionButton(self.game, "Human", 0.75, 0.5)
 
         # Menu state
         self.show_settings = False

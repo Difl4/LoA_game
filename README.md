@@ -18,6 +18,7 @@ However, there are some restrictions to movement. Upon the selection of a piece 
   - if there is another of the same colour already in the desired position, that move becomes illegal, having the piece to be moved elsewhere;
   - if there are any opposing pieces in the path to the desired position, that piece is now blocked to move in that direction, making that an illegal move as well.
 Any piece will remain blocked in one or more directions as long as there are opposing pieces in the path from the current position to the desired one.
+
 Upon making a move, if a piece is to land in a space occupied by an opposing piece, having respected the previously enumerated rules, it will "eat" the opposing piece,
 removing it permanently from the game. But don´t be fooled! Less pieces means less connections to make!
 
@@ -29,8 +30,7 @@ all structured as Python classes, that follow a same interface described in "bas
 and number of nodes explored whenever an AI player is initialized.
 In this same directory there also are:
   - two files that operate the Monte Carlo Tree Search (MCTS), "MCTS.py" and "MCTS_node.py";
-  - the file "minimax.py", that contains the "MinimaxAI" class, which operates according to "base_ai.py" and becomes a search algorithm model for all subsequent AI's, also
-  - homing the utility functions that will guide the different searches; 
+  - the file "minimax.py", that contains the "MinimaxAI" class, which operates according to "base_ai.py" and becomes a search algorithm model for all subsequent AI's, homing the utility functions that will guide the different searches. It is also in this module where the random player is implemented ; 
   - "minimax_no_pruning.py", "minimax_alpha_beta.py", "negamax_no_pruning.py" and "negamax_alpha_beta.py" which contain the playable AI's following these algorithms;
   - "enhanced_heuristic.py" and "proximity_to_center.py", two classes that operate the utility functions to be used by the MCTS.
     

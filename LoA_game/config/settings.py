@@ -48,7 +48,7 @@ class Settings:
             'MCTS | Hard',
             'Minimax | Hard',
             'MCTS | Very Hard',
-            'Random',
+            'Random'
         ]
         # Game settings
         self.fps = 60

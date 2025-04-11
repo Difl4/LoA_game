@@ -19,6 +19,9 @@ class ConnectivityFirstHeuristic:
         return 1.0
 
     def _connectivity_score(self, board, player, pieces):
+        if len(pieces) == 1:
+            return 1  # Single piece case
+            
         visited = set()
         largest_cluster = 0
         

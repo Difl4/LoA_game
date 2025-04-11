@@ -34,7 +34,7 @@ In this same directory there also are:
   - two files that operate the Monte Carlo Tree Search (MCTS), "MCTS.py" and "MCTS_node.py";
   - the file "minimax.py", that contains the "MinimaxAI" class, which operates according to "base_ai.py" and becomes a search algorithm model for all subsequent AI's, homing the utility functions that will guide the different searches. It is also in this module where the random player is implemented ; 
   - "minimax_no_pruning.py", "minimax_alpha_beta.py", "negamax_no_pruning.py" and "negamax_alpha_beta.py" which contain the playable AI's following these algorithms;
-  - "enhanced_heuristic.py" and "proximity_to_center.py", two classes that operate the utility functions to be used by the MCTS.
+  - "connectivity_heuristic.py", "enhanced_heuristic.py" and "proximity_to_center.py", three classes that operate the utility functions to be used by the MCTS.
   - the file "all_ai.py", a central module containing all AI implementations for the game, organized by algorithm type with clearly named variants.
     
 The folder "config" contains the modules "settings.py", defining all the game's configurations, allowing for board size, colour and screen size total costumization, and

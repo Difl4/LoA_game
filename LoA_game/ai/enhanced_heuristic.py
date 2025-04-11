@@ -33,7 +33,7 @@ class EnhancedHeuristic:
     def _connectivity_score(self, board, player, pieces):
         """Calculate connectivity score (0-1)"""
         if len(pieces) == 1:
-            return 0.5  # Single piece case
+            return 1  # Single piece case
             
         visited = set()
         largest_cluster = 0

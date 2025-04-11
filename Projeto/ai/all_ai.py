@@ -65,27 +65,24 @@ class NegamaxBetter(NegamaxAlphaBeta):
 
 class MCTSCenterMass(MonteCarloAI):
     """MCTS using center of mass heuristic."""
-    def __init__(self, game, color, rollouts=1000):
-        super().__init__(game, color, rollouts)
+    def __init__(self, game, color):
+        super().__init__(game, color)
         self.heuristic = ProximityToCenterHeuristic(game.settings)
         self.search_depth = "N/A"  # MCTS doesn't use depth in the same way
-        self.nodes_explored = self.rollouts  # Each rollout counts as a node
 
 class MCTSEnhanced(MonteCarloAI):
     """MCTS using enhanced cluster heuristic."""
-    def __init__(self, game, color, rollouts=1000):
-        super().__init__(game, color, rollouts)
+    def __init__(self, game, color):
+        super().__init__(game, color)
         self.heuristic = EnhancedHeuristic(game.settings)
         self.search_depth = "N/A"
-        self.nodes_explored = self.rollouts
 
 class MCTSConnectivity(MonteCarloAI):
     """MCTS focusing on piece connectivity."""
-    def __init__(self, game, color, rollouts=1000):
-        super().__init__(game, color, rollouts)
+    def __init__(self, game, color):
+        super().__init__(game, color)
         self.heuristic = ConnectivityFirstHeuristic(game.settings)
         self.search_depth = "N/A"
-        self.nodes_explored = self.rollouts
 
 # Export all available AIs
 __all__ = [

@@ -88,14 +88,14 @@ class EnhancedHeuristic:
         for pos in board:
             if board[pos] == player:
                 max_possible += 8
-                total_moves += len(list(self._get_valid_moves_single(pos, board)))
+                total_moves += len(list(self._get_valid_moves_single(pos)))
         
         if max_possible == 0:
             return 0.0
             
         return total_moves / max_possible
 
-    def _get_valid_moves_single(self, pos, board):
+    def _get_valid_moves_single(self, pos):
         """Helper to get moves for single piece"""
         row, col = pos
         for dr, dc in self.directions:

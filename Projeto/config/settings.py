@@ -41,14 +41,14 @@ class Settings:
 
         self.player_options = [
             'Human',
-            'Minimax (Simple)',
-            'Minimax (Better)',
-            'Random',
-            'Negamax (Simple)',
-            'Negamax (Better)',
-            'MCTS (Center Mass)',
-            'MCTS (Enhanced)',
-            'MCTS (Connectivity)'
+            'Negamax | Very Easy',
+            'Negamax | Easy',
+            'Minimax | Easy',
+            'MCTS | Medium',
+            'MCTS | Hard',
+            'Minimax | Hard',
+            'MCTS | Very Hard',
+            'Random'
         ]
         # Game settings
         self.fps = 60

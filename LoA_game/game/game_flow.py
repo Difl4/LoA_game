@@ -35,14 +35,14 @@ class GameFlow:
 
         self.PLAYER_MAP = {
             'Human': None,
-            'Minimax | Easy': MinimaxSimple,
-            'Minimax | Hard': MinimaxBetter,
-            'Random': Random,
-            'Negamax | Very Easy': NegamaxSimple,
+            'Negamax | Very Easy': NegamaxSimple, 
             'Negamax | Easy': NegamaxBetter,
-            'MCTS | Very Hard': MCTSCenterMass,
+            'Minimax | Easy': MinimaxSimple,
+            'MCTS | Medium': MCTSConnectivity,
             'MCTS | Hard': MCTSEnhanced,
-            'MCTS | Medium': MCTSConnectivity
+            'Minimax | Hard': MinimaxBetter,
+            'MCTS | Very Hard': MCTSCenterMass,
+            'Random': Random
         }
 
         # Ai flags
